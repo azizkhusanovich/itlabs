@@ -1,20 +1,37 @@
 import { createRouter, createWebHistory } from "vue-router";
+import i18n from '../i18n'
 import HomeView from "../views/HomeView.vue";
-
+import NotFound from "../components/NotFound"
+import About from "../views/about.vue"
 const routes = [
   {
-    path: "/",
-    name: "home",
-    component: HomeView,
+    path: '/',
+    redirect: `/${i18n.global.locale}`
   },
   {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+    path: '/:lang',
+    name: 'home',
+    component: async () => {
+      if (i18n.global.locale !== 'uz' && i18n.global.locale !== 'ru') {
+        return NotFound
+      }
+      return HomeView
+    }
+  },
+  {
+    path: '/:lang/about',
+    name: 'about',
+    component: async () => {
+      if (i18n.global.locale !== 'uz' && i18n.global.locale !== 'ru') {
+        return NotFound
+      }
+      return About
+    }
+  },
+  {
+    path: '/:pathMatch(.*)',
+    name: 'notFound',
+    component: NotFound
   },
 ];
 
@@ -22,5 +39,11 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
 });
+
+router.beforeEach((to, from, next) => {
+  let language = to.params.lang
+  i18n.global.locale = language
+  next()
+})
 
 export default router;

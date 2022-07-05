@@ -1,0 +1,44 @@
+@use "sass:math";
+
+// colors
+$white: #ffffff;
+$black: #000000;
+$gray:#666666;
+$light-black: #1A1A1A;
+$light-green:#0FE97E;
+$body-bg:#13131B;
+
+/* FUNCTIONS */
+
+//Rem
+@function rem($fz) {
+    $result: math.div($fz, 16) + rem;
+    @return $result;
+}
+
+
+//Em
+@function em($fz) {
+    $result: math.div($fz, 16) + em;
+    @return $result;
+}
+
+
+//lh
+@function lh($lh, $fz) {
+    $result: math.div($lh, $fz);
+    @return $result;
+}
+
+// toEm
+@function toEm($px, $fz) {
+    $result: math.div($px, $fz) + em;
+    @return $result;
+}
+
+
+// toRem
+@function toRem($px, $fz) {
+    $result: math.div($px, $fz) + rem;
+    @return $result;
+}
