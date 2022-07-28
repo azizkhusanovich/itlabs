@@ -24,7 +24,7 @@ function loadLocaleMessages() {
 }
 
 export default createI18n({
-  locale: process.env.VUE_APP_I18N_LOCALE || "uz",
-  fallbackLocale: process.env.VUE_APP_I18N_FALLBACK_LOCALE || "uz",
+  locale: localStorage.getItem('lang') || process.env.VUE_APP_I18N_LOCALE || "uz",
+  fallbackLocale: localStorage.getItem('lang') || process.env.VUE_APP_I18N_FALLBACK_LOCALE || "uz",
   messages: loadLocaleMessages(),
 });

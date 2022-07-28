@@ -1,7 +1,14 @@
 /* HELPERS */
 @import 'fonts/_fonts';
+@import 'helpers/mixins';
 @import 'helpers/functions';
 @import 'helpers/normalize';
-@import 'helpers/mixins';
 
 /* COMPONENTS */
+@import 'components/TheNavbar';
+@import 'components/HeroCard';
+@import 'components/HeroModal';
+
+/* LAYOUTS */
+@import 'Layouts/HeroSection';
+

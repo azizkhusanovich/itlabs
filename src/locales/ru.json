@@ -5,5 +5,13 @@
         "free_prezentation": "Пробный урок",
         "contact": "Контакты"
     },
-    "mobile": "Позвонить"
-  }
+    "call": "Позвонить",
+    "title": " и получи свою профессию будущего",
+    "title-active": "Измени себя",
+    "hero-text": "We provide one stop IT Solution services from concepting until production for Website, Software, & Mobile Development.",
+    "socials": "Ijtimoiy сеть",
+    "hero-btn": "Записаться на курс",
+    "notFound": "Страница не найдена",
+    "homeText":"Возможно, вы ввели неверный адрес.Попробуйте воспользоваться поиском или перейдите на ",
+    "home": "главную страницу"
+}

@@ -1,49 +1,36 @@
 import { createRouter, createWebHistory } from "vue-router";
 import i18n from '../i18n'
-import HomeView from "../views/HomeView.vue";
-import NotFound from "../components/NotFound"
-import About from "../views/about.vue"
 const routes = [
-  {
-    path: '/',
-    redirect: `/${i18n.global.locale}`
-  },
-  {
-    path: '/:lang',
-    name: 'home',
-    component: async () => {
-      if (i18n.global.locale !== 'uz' && i18n.global.locale !== 'ru') {
-        return NotFound
-      }
-      return HomeView
-    }
-  },
-  {
-    path: '/:lang/about',
-    name: 'about',
-    component: async () => {
-      if (i18n.global.locale !== 'uz' && i18n.global.locale !== 'ru') {
-        return NotFound
-      }
-      return About
-    }
-  },
-  {
-    path: '/:pathMatch(.*)',
-    name: 'notFound',
-    component: NotFound
-  },
-];
-
+    {
+        path: '/:lang',
+        name: 'Home',
+        alias: '/',
+        component: () => import('../views/HomeView.vue')
+    },
+    //////// keyingi rout yozish uchun path (path: '/:lang/view' + lazy loading)
+    {
+        path: '/:lang?/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: () => import('../components/NotFound.vue')
+    },
+]
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes,
+    history: createWebHistory(process.env.BASE_URL),
+    routes,
 });
-
 router.beforeEach((to, from, next) => {
-  let language = to.params.lang
-  i18n.global.locale = language
-  next()
+    const langFromLocalStorage = localStorage.getItem('lang')
+    let language = to.params.lang
+    if (language === 'uz' || language === 'ru') {
+        i18n.global.locale = language
+        localStorage.setItem('lang', language)
+        next()
+    } else if (!language) {
+        to.params.lang = i18n.global.locale = langFromLocalStorage
+        next()
+    } else {
+        to.params.lang = langFromLocalStorage
+        next({ name: 'NotFound' })
+    }
 })
-
 export default router;

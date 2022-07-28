@@ -48,15 +48,65 @@ textarea {
 }
 
 body {
-    min-width: 320px;
+    min-width: rem(320);
     background: $body-bg;
     font-family: 'CeraPro-400';
-    font-weight: 400;
 }
 
 .container {
     width: 100%;
-    max-width: 1600px;
+    max-width: rem(1600);
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 rem(15);
+
+    @include xxl {
+        max-width: rem(1320);
+    }
+
+    @include xl {
+        max-width: rem(1140);
+    }
+
+    @include lg {
+        max-width: rem(960);
+    }
+
+    @include md {
+        max-width: rem(720);
+    }
+
+    @include sm {
+        max-width: rem(540);
+    }
+}
+
+::-webkit-scrollbar {
+    width: rem(14);
+    height: rem(14);
+
+    &-track {
+        background: $body-bg;
+        border-radius: 100vw;
+        margin-block: rem(3);
+    }
+
+    &-thumb {
+        background: linear-gradient($light-green, #229B58);
+        border-radius: 100vw;
+
+        &:hover {
+            background: linear-gradient(#229B58, $light-green);
+        }
+    }
+}
+
+@supports (scrollbar-color: $light-green, #229B58) {
+    * {
+        scrollbar-color: $light-green, #229B58;
+        scrollbar-width: auto;
+    }
+}
+
+.swiper-pagination-bullet {
+    background-color: $light-green !important;
 }

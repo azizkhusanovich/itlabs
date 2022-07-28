@@ -1,10 +1,9 @@
 /* sizes */
-$xxl:1400px;
-$xl:1200px;
-$lg:992px;
-$md:768px;
-$sm:576px;
-$xs:320px;
+$xxl: 1400px;
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
 
 /* flex-between */
 @mixin df-between {
@@ -24,6 +23,12 @@ $xs:320px;
 /* MEDIA */
 @mixin media($w) {
     @media (max-width: $w) {
+        @content;
+    }
+}
+
+@mixin xxl {
+    @media (max-width: $xxl) {
         @content;
     }
 }
@@ -48,12 +53,6 @@ $xs:320px;
 
 @mixin sm {
     @media (max-width: $sm) {
-        @content;
-    }
-}
-
-@mixin xs {
-    @media (max-width: $xs) {
         @content;
     }
 }

@@ -1,0 +1,103 @@
+.header {
+    background: url('@/assets/images/hero-bg.jpg') no-repeat center / cover;
+
+    .wrapper {
+        position: relative;
+
+        .hero {
+            width: 70%;
+            padding: rem(200) 0 rem(100);
+            margin: 0 auto;
+            text-align: center;
+
+            .hero-title {
+                font-family: 'CeraPro-700';
+                font-size: rem(80);
+                line-height: 1;
+                color: $white;
+
+                span {
+                    color: $light-green;
+                }
+            }
+
+            .hero-text {
+                font-family: 'CeraPro-400';
+                font-size: rem(25);
+                line-height: 128%;
+                color: #ECECEC;
+                padding: toEm(50, 25) 0;
+            }
+
+            .hero-btn {
+                font-family: 'CeraPro-400';
+                font-size: rem(20);
+                line-height: 1;
+                color: #FFFFFF;
+                padding: toEm(20, 20) toEm(30, 20);
+                background: $light-green;
+                border-radius: 4px;
+                transition: 400ms;
+                border: rem(2) solid $light-green;
+
+
+                &:hover {
+                    border: rem(2) solid $light-green;
+                    color: $light-green;
+                    background: transparent;
+                }
+            }
+        }
+
+        .socials {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .s-text {
+                writing-mode: vertical-lr;
+                text-orientation: mixed;
+                font-family: 'CeraPro-700';
+                font-size: rem(20);
+                line-height: 1;
+                color: $white;
+            }
+
+            .line {
+                width: rem(1);
+                height: rem(50);
+                background: $white;
+                margin: rem(20) auto;
+            }
+
+            .medias {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .media-link {
+                    font-size: rem(25);
+                    color: white;
+                    margin: rem(10) 0;
+                    transition: 400ms;
+
+                    &.instagram:hover {
+                        color: #d6249f;
+                    }
+
+                    &.facebook:hover {
+                        color: #1b68c6;
+                    }
+
+                    &.telegram:hover {
+                        color: #2AABEE;
+                    }
+                }
+            }
+        }
+    }
+}

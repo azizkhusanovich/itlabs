@@ -1,9 +1,15 @@
 {
   "main_links": {
-      "courses": "Курсы",
-      "about_us": "О нас",
-      "free_prezentation": "Пробный урок",
-      "contact": "Контакты"
+    "courses": "Kurslar",
+    "about_us": "Biz haqimizda",
+    "free_prezentation": "Bepul dars",
+    "contact": "Kontakt"
   },
-  "mobile": "tel"
+  "call": "Qo'ng'iroq qilish",
+  "title": " va kelajak sohangni qo'lga kirit",
+  "title-active": "O'zingni o'zgartir",
+  "hero-text": "We provide one stop IT Solution services from concepting until production for Website, Software, & Mobile Development.",
+  "socials": "Ijtimoiy tarmoqlarimiz",
+  "hero-btn": "Kursga yozilish",
+  "notFound": "Bunday sahifa topilmadi"
 }
