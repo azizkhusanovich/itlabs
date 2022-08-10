@@ -1,6 +1,6 @@
 <template>
     <div class="hero__card h-card" @click="$emit('cardClicked', card.id)">
-        <img :src="card.src" alt="iamge of cpourse" class="img" />
+        <img :src="card.src" alt="iamge of course" class="img" />
         <div class="unactive">
             <h1 v-html="card.title" class="title"></h1>
         </div>

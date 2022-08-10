@@ -18,15 +18,12 @@
 
         @include xl {
             width: rem(156);
-            height: auto;
-        }
-
-        @include md {
-            width: rem(130);
+            height: rem(35);
         }
 
         .logo {
             width: 100%;
+            height: 100%;
         }
     }
 
@@ -48,16 +45,14 @@
                 left: 0;
                 background: #151521;
                 z-index: 10;
-                border-top-left-radius: 15px;
-                border-top-right-radius: 15px;
-                // align-items: stretch !important;
+                border-radius: 20px;
+                border: 2px solid $light-green
             }
 
             .list {
                 @include lg {
-                    width: 100%;
+                    width: 25%;
                 }
-
 
                 .link {
                     font-family: 'CeraPro-400';
@@ -79,12 +74,13 @@
                         transition: 300ms;
                         font-size: rem(20);
                         border-radius: 15px;
+                        text-shadow: 0.7px 0.7px 00.5px #151521,
+                            0.7px 0.7px 0.6px #151521,
+                            0.7px 0.7px 0.8px #151521;
 
                         &:hover,
-                        &:focus,
                         &.active {
                             background: $light-green;
-                            color: #151521;
                         }
                     }
 
@@ -94,8 +90,7 @@
 
                     @include sm {
                         padding: 0;
-                        font-size: rem(13);
-                        height: rem(50);
+                        height: rem(70);
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -146,11 +141,7 @@
             }
 
             @include sm {
-                width: rem(100);
-                order: 2;
                 margin: 0;
-                margin-left: rem(5);
-                font-size: rem(13);
             }
 
             .row {
@@ -163,17 +154,12 @@
             .img {
                 width: rem(30);
                 height: rem(22);
-
-                @include md {
-                    width: rem(25);
-                    height: rem(16);
-                }
             }
 
             .languages {
                 width: 100%;
                 position: absolute;
-                top: 108%;
+                top: 105%;
                 left: 0;
                 z-index: 5;
                 font-size: rem(20);
@@ -189,13 +175,6 @@
                 @include xl {
                     font-size: rem(15);
                 }
-
-                @include sm {
-                    width: rem(100);
-                    font-size: rem(13);
-                    order: 2;
-                }
-
             }
 
             &:hover .languages {
@@ -229,10 +208,7 @@
             }
 
             @include sm {
-                font-size: rem(10);
-                width: rem(120);
-                margin: rem(5);
-                margin-right: 0;
+                display: none;
             }
 
 

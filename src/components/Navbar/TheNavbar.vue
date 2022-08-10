@@ -1,5 +1,5 @@
 <template>
-    <nav class="nav">
+    <nav class="nav" @mouseleave="selected = false">
         <!-- LOGO -->
         <div class="logo-bl">
             <router-link :to="{ name: 'Home' }">
@@ -31,8 +31,11 @@
                 ></navbar-link>
             </ul>
             <!-- LNAGUAGE -->
-            <div class="select-lang">
-                <div class="row">
+            <div class="select-lang" >
+                <div
+                    class="row"
+    
+                >
                     <img
                         class="img"
                         :src="
@@ -55,7 +58,7 @@
                         v-for="selectedLanguage in languages"
                         :key="selectedLanguage.id"
                         :value="selectedLanguage.value"
-                        @click="setLanguage($event), true"
+                        @click="setLanguage($event)"
                         v-show="selectedLanguage.value !== langFromLocalStorage"
                     >
                         <img :src="selectedLanguage.src" alt="" class="img" />

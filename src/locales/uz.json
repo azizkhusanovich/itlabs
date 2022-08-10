@@ -11,5 +11,21 @@
   "hero-text": "We provide one stop IT Solution services from concepting until production for Website, Software, & Mobile Development.",
   "socials": "Ijtimoiy tarmoqlarimiz",
   "hero-btn": "Kursga yozilish",
-  "notFound": "Bunday sahifa topilmadi"
+  "notFound": "Bunday sahifa topilmadi",
+  "formSuptitle": "Kursga yozilish",
+  "formTitle": "Qaysi kursga yozilmoqchisiz??",
+  "formSubtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
+  "namePlaceholder": "Ismingiz",
+  "phonePlaceholder": "Telefon raqamingiz",
+  "sendBtn": "Yuborish",
+  "backInfo": [
+    "Dasturlash asoslari",
+    "Python bilan ishlash",
+    "Ma'lumotlar bazasi",
+    "Telegram Bot",
+    "Django Framework",
+    "REST API",
+    "Web loyiha yaratish",
+    "Git"
+  ]
 }

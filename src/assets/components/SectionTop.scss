@@ -1,0 +1,26 @@
+.top-area {
+    padding: rem(100) 0 rem(70);
+    text-align: center;
+
+    .suptitle {
+        font-family: 'CeraPro-500';
+        font-size: rem(20);
+        line-height: 1;
+        color: $light-green;
+    }
+
+    .title {
+        font-family: 'CeraPro-700';
+        font-size: rem(40);
+        padding: toEm(30, 40) 0 toEm(23, 40);
+        line-height: 1.02;
+        color: #fff;
+    }
+
+    .subtitle {
+        font-family: 'CeraPro-400';
+        font-size: rem(25);
+        line-height: 128%;
+        color: $gray;
+    }
+}

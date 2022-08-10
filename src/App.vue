@@ -4,6 +4,7 @@
 
 <script>
 export default {
+    name: 'App',
     beforeCreate() {
         localStorage.setItem('lang', localStorage.getItem('lang') || 'uz')
     },

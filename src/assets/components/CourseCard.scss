@@ -1,0 +1,27 @@
+.courses {
+    .card {
+        // flex: 1 0 auto;
+        // width: clamp(320px, 100%, 24%);
+        padding: rem(35);
+        background: #1A1A25;
+        border-radius: 10px;
+
+        .img-bl {
+            width: rem(45);
+            height: rem(45);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .title {
+            font-family: 'CeraPro-500';
+            font-size: rem(26);
+            line-height: 115%;
+            color: #FFFFFF;
+            padding-top: toEm(40, 26);
+        }
+    }
+}

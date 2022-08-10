@@ -10,6 +10,8 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
-library.add(faInstagram, faFacebook, faTelegram, faGraduationCap)
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+library.add(faInstagram, faFacebook, faTelegram, faGraduationCap, faLaptopCode, faChevronDown)
 
 createApp(App).use(i18n).use(store).use(router).component('font-awesome-icon', FontAwesomeIcon).mount("#app");

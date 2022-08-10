@@ -19,7 +19,7 @@
             }"
             :modules="modules"
             :breakpoints="{
-                '525': {
+                '475': {
                     slidesPerView: 2,
                 },
                 '768': {
@@ -31,7 +31,7 @@
             }"
             class="mySwiper"
         >
-            <swiper-slide v-for="card in fields" :key="card.id">
+            <swiper-slide v-for="card in getFields" :key="card.id">
                 <hero-card :card="card" @cardClicked="cardClicked"></hero-card>
             </swiper-slide>
         </swiper>
@@ -44,7 +44,7 @@ import HeroCard from '../Fields/HeroCard.vue'
 import HeroModal from '../Fields/HeroModal.vue'
 
 // fileds info
-import fields from '../../fields'
+// import fields from '../../fields'
 
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue'
@@ -59,13 +59,12 @@ import 'swiper/css/pagination'
 import { Pagination } from 'swiper'
 
 //vuex
-// import { mapGetters } from 'vuex'
+import { mapGetters } from 'vuex'
 
 export default {
     data() {
         return {
             modules: [Pagination, Autoplay],
-            fields,
             cardOpen: false,
             cardInfo: '',
         }
@@ -79,7 +78,7 @@ export default {
     methods: {
         cardClicked(id) {
             this.cardOpen = true
-            const clickedElement = this.fields.find((elem) => elem.id == id)
+            const clickedElement = this.getFields.find((elem) => elem.id == id)
             this.cardInfo = clickedElement
         },
         openModal() {
@@ -88,7 +87,7 @@ export default {
         },
     },
     computed: {
-        // ...mapGetters('fields', ['getFields']),
+        ...mapGetters(['getFields']),
     },
 }
 </script>
@@ -97,4 +96,9 @@ export default {
 .hero__block {
     transform: translateY(50%);
 }
+
+.swiper-slide{
+    height: auto !important;
+}
+
 </style>
