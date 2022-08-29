@@ -7,15 +7,7 @@
                 :subtitle="$t('formSubtitle')"
             ></section-top>
 
-            <Form @submit="submit" :validation-schema="schema">
-                <Field name="email" />
-                <ErrorMessage name="email" />
-                <Field name="password" type="password" />
-                <ErrorMessage name="password" />
-                <button>Submit</button>
-            </Form>
-
-            <!-- <form class="form-block" @submit.prevent="getUserInfo">
+            <form class="form-block" @submit.prevent="getUserInfo">
                 <div
                     class="form-select"
                     :class="selectOpen ? 'open' : ''"
@@ -63,7 +55,7 @@
                     v-model.number="userPhone"
                 />
                 <button class="form-btn">{{ $t('sendBtn') }}</button>
-            </form> -->
+            </form>
         </div>
     </section>
 </template>
@@ -71,84 +63,35 @@
 <script>
 //components
 import SectionTop from '../components/SectionTop.vue'
-import { Form, Field, ErrorMessage } from 'vee-validate'
-import * as yup from 'yup'
 //vuex
 import { mapGetters } from 'vuex'
 
 export default {
     name: 'FormSection',
-    components: {
-        Form,
-        Field,
-        ErrorMessage,
-    },
+
     data() {
-        const schema = yup.object({
-            email: yup.string().required().email(),
-            password: yup.string().required().min(8),
-        })
         return {
-            schema,
+            selectOpen: false,
+            activeOption: '',
+            userName: '',
+            userPhone: '',
         }
     },
-    methods: {
-        submit(values) {
-            if (this.schema) {
-                alert(JSON.stringify(values, null, 2))
-            }
+    components: {
+        SectionTop,
+    },
+    computed: {
+        ...mapGetters(['getOption']),
+        setActiveOption() {
+            return (this.activeOption = this.getOption[0].title)
         },
     },
-    // data() {
-    //     return {
-    //         selectOpen: false,
-    //         activeOption: '',
-    //         validateNameInput: false,
-    //         userName: '',
-    //         errors: {
-    //             invalidUserName: null,
-    //             invalidUserPhone: null,
-    //         },
-    //     }
-    // },
-    // components: {
-    //     SectionTop,
-    // },
-    // computed: {
-    //     ...mapGetters(['getOption']),
-    //     setActiveOption() {
-    //         return (this.activeOption = this.getOption[0].title)
-    //     },
-    // },
-    // methods: {
-    //     changeActiveOption(value) {
-    //         this.activeOption = value
-    //         this.selectOpen = !this.selectOpen
-    //     },
-    //     getUserInfo() {
-    //         if (this.validateUserName()) {
-    //             console.log(
-    //                 'f' +
-    //                     this.getOption.find(
-    //                         (elem) => elem.title == this.activeOption
-    //                     ).value
-    //             )
-    //             console.log('n' + this.userName)
-    //             console.log('p' + this.userPhone)
-    //         }
-    //     },
-    //     validateUserName() {
-    //         let isValid = false
-    //         if (this.userName.length > 0) {
-    //             isValid = true
-    //             this.errors.invalidUserName = null
-    //         } else {
-    //             isValid = false
-    //             this.errors.invalidUserName = 'Ismini kirit'
-    //         }
-    //         return isValid
-    //     },
-    // },
+    methods: {
+        changeActiveOption(value) {
+            this.activeOption = value
+            this.selectOpen = !this.selectOpen
+        },
+    },
 }
 </script>
 
