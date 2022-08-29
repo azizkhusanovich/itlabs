@@ -9,11 +9,11 @@
                         <h2 class="title" v-html="info.title"></h2>
                     </div>
 
-                    <div class="bottom">
+                    <!-- <div class="bottom">
                         <ul class="text">
                             <p v-html="$t('backInfo')"></p>
                         </ul>
-                    </div>
+                    </div> -->
                     <button
                         class="btn-course"
                         @click="cardRotated = !cardRotated"
@@ -23,8 +23,6 @@
                 </div>
                 <div class="back">
                     <div class="form-modal">
-                        <form class="form"></form>
-
                         <button
                             class="btn-course"
                             @click="cardRotated = !cardRotated"
@@ -46,14 +44,8 @@ export default {
         return {
             cardRotated: false,
             isNewOpen: this.isOpen,
-            data: $t('backInfo'),
         }
     },
-    // computed: {
-    mounted() {
-        console.log(this.data)
-    },
-    // },
 }
 </script>
 

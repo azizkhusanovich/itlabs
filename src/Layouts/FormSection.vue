@@ -1,10 +1,10 @@
 <template>
-    <section class="form">
+    <section id="prezentation" class="form">
         <div class="container form-container">
             <section-top
-                :suptitle="$t('formSuptitle')"
-                :title="$t('formTitle')"
-                :subtitle="$t('formSubtitle')"
+                :suptitle="$t('top_info.form_suptitle')"
+                :title="$t('top_info.form_title')"
+                :subtitle="$t('top_info.form_subtitle')"
             ></section-top>
 
             <form class="form-block" @submit.prevent="getUserInfo">
@@ -34,27 +34,22 @@
                 </div>
 
                 <label for="userName">
-                    <legend for="userName">
-                        {{ errors.invalidUserName }}
-                    </legend>
                     <input
                         type="text"
                         id="userName"
                         class="form-input"
-                        :placeholder="$t('namePlaceholder')"
+                        :placeholder="$t('name_placeholder')"
                         v-model.trim="userName"
-                        :class="errors.invalidUserName ? 'danger' : ''"
-                        @input="validateUserName"
                     />
                 </label>
 
                 <input
                     type="text"
                     class="form-input"
-                    :placeholder="$t('phonePlaceholder')"
+                    :placeholder="$t('phone_placeholder')"
                     v-model.number="userPhone"
                 />
-                <button class="form-btn">{{ $t('sendBtn') }}</button>
+                <button class="form-btn">{{ $t('send_btn') }}</button>
             </form>
         </div>
     </section>
@@ -68,7 +63,6 @@ import { mapGetters } from 'vuex'
 
 export default {
     name: 'FormSection',
-
     data() {
         return {
             selectOpen: false,

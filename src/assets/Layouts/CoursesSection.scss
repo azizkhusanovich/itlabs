@@ -1,4 +1,12 @@
 .courses {
+    .courses__container {
+        padding-block: rem(150);
+
+        @include lg {
+            padding-block: rem(90);
+        }
+    }
+
     .course__wrapper {
         // display: flex;
         // flex-wrap: wrap;

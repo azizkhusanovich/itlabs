@@ -7,27 +7,22 @@
     },
     "call": "Позвонить",
     "title": " и получи свою профессию будущего",
-    "title-active": "Измени себя",
-    "hero-text": "We provide one stop IT Solution services from concepting until production for Website, Software, & Mobile Development.",
+    "title_active": "Измени себя",
+    "hero_text": "We provide one stop IT Solution services from concepting until production for Website, Software, & Mobile Development.",
     "socials": "Ijtimoiy сеть",
-    "hero-btn": "Записаться на курс",
-    "notFound": "Страница не найдена",
-    "homeText": "Возможно, вы ввели неверный адрес.Попробуйте воспользоваться поиском или перейдите на ",
+    "hero_btn": "Записаться на курс",
+    "not_found": "Страница не найдена",
+    "home_text": "Возможно, вы ввели неверный адрес.Попробуйте воспользоваться поиском или перейдите на ",
     "home": "главную страницу",
-    "formSuptitle": "Записаться на курс",
-    "formTitle": "На какой курс вы хотите?",
-    "formSubtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
-    "namePlaceholder": "Ваше имя",
-    "phonePlaceholder": "Ваш номер телефона",
-    "sendBtn": "Отправить",
-    "backInfo": [
-        "Dasturlash asoslari ru",
-        "Python bilan ishlash ru",
-        "Ma'lumotlar bazasi ru",
-        "Telegram Bot ru",
-        "Django Framework ru",
-        "REST API ru",
-        "Web loyiha yaratish ru",
-        "Git ru"
-    ]
+    "top_info": {
+        "form_suptitle": "Записаться на курс",
+        "form_title": "На какой курс вы хотите?",
+        "form_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
+        "courses_suptitle": "Наши курсы",
+        "courses_title": "Мы предоставляем лучшие курсы на рынке.",
+        "courses_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis."
+    },
+    "name_placeholder": "Ваше имя",
+    "phone_placeholder": "Ваш номер телефона",
+    "send_btn": "Отправить"
 }

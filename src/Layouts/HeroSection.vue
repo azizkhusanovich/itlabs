@@ -5,13 +5,15 @@
             <div class="wrapper">
                 <div class="hero">
                     <h1 class="hero-title">
-                        <span>{{ $t('title-active') }}</span>
+                        <span>{{ $t('title_active') }}</span>
                         {{ $t('title') }}
                     </h1>
                     <p class="hero-text">
-                        {{ $t('hero-text') }}
+                        {{ $t('hero_text') }}
                     </p>
-                    <a href="#" class="hero-btn">{{ $t('hero-btn') }}</a>
+                    <a href="#prezentation" class="hero-btn">{{
+                        $t('hero_btn')
+                    }}</a>
                 </div>
                 <div class="socials">
                     <p class="s-text">{{ $t('socials') }}</p>

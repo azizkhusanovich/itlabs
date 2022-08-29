@@ -97,8 +97,7 @@ export default {
     transform: translateY(50%);
 }
 
-.swiper-slide{
+.swiper-slide {
     height: auto !important;
 }
-
 </style>

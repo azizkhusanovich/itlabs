@@ -1,7 +1,11 @@
 <template>
-    <section class="courses">
-        <div class="container">
-            <section-top></section-top>
+    <section id="courses" class="courses">
+        <div class="container courses__container">
+            <section-top
+                :suptitle="$t('top_info.courses_suptitle')"
+                :title="$t('top_info.courses_title')"
+                :subtitle="$t('top_info.courses_subtitle')"
+            ></section-top>
             <div class="course__wrapper">
                 <course-card
                     v-for="course in getCards"

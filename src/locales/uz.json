@@ -7,25 +7,20 @@
   },
   "call": "Qo'ng'iroq qilish",
   "title": " va kelajak sohangni qo'lga kirit",
-  "title-active": "O'zingni o'zgartir",
-  "hero-text": "We provide one stop IT Solution services from concepting until production for Website, Software, & Mobile Development.",
+  "title_active": "O'zingni o'zgartir",
+  "hero_text": "We provide one stop IT Solution services from concepting until production for Website, Software, & Mobile Development.",
   "socials": "Ijtimoiy tarmoqlarimiz",
-  "hero-btn": "Kursga yozilish",
-  "notFound": "Bunday sahifa topilmadi",
-  "formSuptitle": "Kursga yozilish",
-  "formTitle": "Qaysi kursga yozilmoqchisiz??",
-  "formSubtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
-  "namePlaceholder": "Ismingiz",
-  "phonePlaceholder": "Telefon raqamingiz",
-  "sendBtn": "Yuborish",
-  "backInfo": [
-    "Dasturlash asoslari",
-    "Python bilan ishlash",
-    "Ma'lumotlar bazasi",
-    "Telegram Bot",
-    "Django Framework",
-    "REST API",
-    "Web loyiha yaratish",
-    "Git"
-  ]
+  "hero_btn": "Kursga yozilish",
+  "not_found": "Bunday sahifa topilmadi",
+  "top_info": {
+    "form_suptitle": "Kursga yozilish",
+    "form_title": "Qaysi kursga yozilmoqchisiz?",
+    "form_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
+    "courses_suptitle": "Bizning kurslar",
+    "courses_title": "Biz zamon talabidagi eng yaxshi kurslarini taklif etamiz.",
+    "courses_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis."
+  },
+  "name_placeholder": "Ismingiz",
+  "phone_placeholder": "Telefon raqamingiz",
+  "send_btn": "Yuborish"
 }
