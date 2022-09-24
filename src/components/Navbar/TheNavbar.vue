@@ -31,11 +31,8 @@
                 ></navbar-link>
             </ul>
             <!-- LNAGUAGE -->
-            <div class="select-lang" >
-                <div
-                    class="row"
-    
-                >
+            <div class="select-lang">
+                <div class="row">
                     <img
                         class="img"
                         :src="

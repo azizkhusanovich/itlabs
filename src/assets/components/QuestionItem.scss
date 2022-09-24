@@ -1,0 +1,54 @@
+.question {
+    width: 80%;
+    margin-inline: auto;
+
+    &__block {
+        @include df-between;
+        border-bottom: rem(1) solid rgba(255, 255, 255, 0.1);
+        transition: 400ms;
+        position: relative;
+
+        &::after {
+            content: '';
+            width: 0;
+            height: rem(2);
+            background: $light-green;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            transition: 1s;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &:hover::after {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        font-family: 'CeraPro-400';
+        font-weight: 400;
+        font-size: rem(25);
+        padding: toEm(34, 25) 0;
+        line-height: 144%;
+        color: $white;
+    }
+
+    &__icon {
+        font-size: rem(25);
+        color: $white;
+        transition: 300ms;
+    }
+
+    &.open .question__icon {
+        transform: rotate(-90deg);
+        color: $light-green;
+    }
+
+    &.open .question__block::after {
+        width: 100%;
+    }
+}
