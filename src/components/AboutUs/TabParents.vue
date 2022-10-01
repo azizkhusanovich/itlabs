@@ -1,7 +1,5 @@
 <template>
-    <p>
-        {{ $t('tab_texts.parents') }}
-    </p>
+    <p v-html="$t('tab_texts.parents')"></p>
 </template>
 
 <script>

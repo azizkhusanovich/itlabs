@@ -25,6 +25,9 @@
         "parents": "Родителям Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy."
     },
     "top_info": {
+        "video_suptitle" :"О нас",
+        "video_title" :"Мы даём нашим студентам шанс стать другими людьми",
+        "video_subtitle" :"Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.О нас",
         "form_suptitle": "Записаться на курс",
         "form_title": "На какой курс вы хотите?",
         "form_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",

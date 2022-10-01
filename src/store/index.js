@@ -90,31 +90,36 @@ export default createStore({
         id: 1,
         fullName: 'Aziz Sobirjonov',
         position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png')
+        img: require('@/assets/images/employee.png'),
+        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
       },
       {
         id: 2,
         fullName: 'Aziz Sobirjonov',
         position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png')
+        img: require('@/assets/images/employee.png'),
+        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
       },
       {
         id: 3,
         fullName: 'Aziz Sobirjonov',
         position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png')
+        img: require('@/assets/images/employee.png'),
+        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
       },
       {
         id: 4,
         fullName: 'Aziz Sobirjonov',
         position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png')
+        img: require('@/assets/images/employee.png'),
+        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
       },
       {
         id: 5,
         fullName: 'Aziz Sobirjonov',
         position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png')
+        img: require('@/assets/images/employee.png'),
+        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
       },
     ]
   },

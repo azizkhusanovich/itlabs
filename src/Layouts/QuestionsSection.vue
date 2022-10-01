@@ -32,4 +32,7 @@ export default {
 </script>
 
 <style>
+.questions__wrapper {
+    padding-bottom: 150px;
+}
 </style>

@@ -1,0 +1,38 @@
+.employee {
+    text-align: center;
+
+    &__img-bl {
+        width: 100%;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__fullname {
+        font-family: 'CeraPro-500';
+        font-style: normal;
+        font-weight: 500;
+        font-size: rem(25);
+        line-height: 120%;
+        padding: toEm(54, 25) 0 toEm(16, 25);
+        color: $white;
+
+        &.active {
+            color: #0FE97E;
+        }
+    }
+
+    &__position {
+        font-family: 'CeraPro-400';
+        font-style: normal;
+        font-weight: 400;
+        font-size: rem(20);
+        line-height: 150%;
+        color: #7D7D7D;
+
+        &.active {
+            color: $white;
+        }
+    }
+}
