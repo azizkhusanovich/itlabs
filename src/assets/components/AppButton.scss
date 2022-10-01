@@ -1,0 +1,47 @@
+.app-btn {
+    &.green {
+        background: $light-green;
+        border-color: $light-green;
+
+        &:hover {
+            border-color: $light-green;
+            color: $light-green;
+        }
+    }
+
+    &.light {
+        background: $white;
+        border-color: $white;
+        color: #13131B;
+
+        &:hover {
+            border-color: $white;
+            color: $white;
+        }
+    }
+
+    // &.light {
+    //     $color: $white;
+    // }
+
+    font-family: 'CeraPro-400';
+    font-size: rem(20);
+    line-height: 1;
+    color: #ffffff;
+    padding: toEm(20, 20) toEm(30, 20);
+    border-radius: 4px;
+    transition: 400ms;
+    border: rem(2) solid transparent;
+
+    @include lg {
+        font-size: rem(18);
+    }
+
+    @include sm {
+        font-size: rem(16);
+    }
+
+    &:hover {
+        background: transparent;
+    }
+}

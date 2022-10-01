@@ -76,33 +76,6 @@
                     font-size: rem(16);
                 }
             }
-
-            .hero-btn {
-                font-family: 'CeraPro-400';
-                font-size: rem(20);
-                line-height: 1;
-                color: #FFFFFF;
-                padding: toEm(20, 20) toEm(30, 20);
-                background: $light-green;
-                border-radius: 4px;
-                transition: 400ms;
-                border: rem(2) solid $light-green;
-
-                @include lg {
-                    font-size: rem(18);
-                }
-
-                @include sm {
-                    font-size: rem(16);
-                }
-
-
-                &:hover {
-                    border: rem(2) solid $light-green;
-                    color: $light-green;
-                    background: transparent;
-                }
-            }
         }
 
         .socials {
@@ -146,7 +119,7 @@
                     transition: 400ms;
 
                     &.instagram:hover {
-                        color: #ad1f9c;                        
+                        color: #ad1f9c;
                     }
 
                     &.facebook:hover {

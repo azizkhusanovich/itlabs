@@ -51,4 +51,12 @@
     &.open .question__block::after {
         width: 100%;
     }
+
+    &__answer {
+        padding: toEm(20, 22);
+        font-size: rem(22);
+        line-height: 1.2;
+        color: $white;
+        background: #1A1A25;
+    }
 }

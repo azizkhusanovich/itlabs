@@ -8,7 +8,12 @@
         </section-top>
         <div class="container">
             <div class="questions__wrapper">
-                <question-item v-for="item in 5" :key="item"></question-item>
+                <template v-for="item in 5" :key="item">
+                    <question-item
+                        :question="$t(`questions.question${item}`)"
+                        :answer="$t(`answers.answer${item}`)"
+                    ></question-item>
+                </template>
             </div>
         </div>
     </section>

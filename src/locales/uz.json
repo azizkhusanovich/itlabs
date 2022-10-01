@@ -12,6 +12,18 @@
   "socials": "Ijtimoiy tarmoqlarimiz",
   "hero_btn": "Kursga yozilish",
   "not_found": "Bunday sahifa topilmadi",
+  "about_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
+  "connect_btn": "Biz bilan bog'lanish",
+  "tabs": {
+    "advantages": "Afzalliklari",
+    "students": "Talabarga",
+    "parents": "Ota-onalarga"
+  },
+  "tab_texts": {
+    "advantages": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
+    "students": "talaba Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
+    "parents": "otaona Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy."
+  },
   "top_info": {
     "form_suptitle": "Kursga yozilish",
     "form_title": "Qaysi kursga yozilmoqchisiz?",
@@ -21,9 +33,28 @@
     "courses_subtitle": "Si sine causa, mox videro; interea hoc epicurzus in bonis sit numeranda nec me tamen laudandis.",
     "questions_suptitle": "Savollar",
     "questions_title": "Eng ko'p beriladigan savollar",
-    "questions_subtitle": "Si sine causa, mox videro; interea hoc epicurzus in bonis sit numeranda nec me tamen laudandis."
+    "questions_subtitle": "Si sine causa, mox videro; interea hoc epicurzus in bonis sit numeranda nec me tamen laudandis.",
+    "about_suptitle": "Nega biz?",
+    "about_title": "Nega bizni tanlashadi?",
+    "employee_suptitle": "Bizning jamoa",
+    "employee_title": "Bizning jamoa",
+    "employee_subtitle": "Executive Trade International is an University Application Centre"
   },
   "name_placeholder": "Ismingiz",
   "phone_placeholder": "Telefon raqamingiz",
-  "send_btn": "Yuborish"
+  "send_btn": "Yuborish",
+  "questions": {
+    "question1": "savoldee",
+    "question2": "savoldee",
+    "question3": "savoldee",
+    "question4": "savoldee",
+    "question5": "savoldee"
+  },
+  "answers": {
+    "answer1": "javob",
+    "answer2": "javob",
+    "answer3": "javob",
+    "answer4": "javob",
+    "answer5": "javob"
+  }
 }

@@ -43,9 +43,8 @@
 import HeroCard from '../Fields/HeroCard.vue'
 import HeroModal from '../Fields/HeroModal.vue'
 
-// fileds info
-// import fields from '../../fields'
-
+//vuex
+import { mapGetters } from 'vuex'
 // Import Swiper Vue.js components
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Autoplay } from 'swiper/core'
@@ -58,9 +57,6 @@ import 'swiper/css/pagination'
 // import required modules
 import { Pagination } from 'swiper'
 
-//vuex
-import { mapGetters } from 'vuex'
-
 export default {
     data() {
         return {
@@ -71,9 +67,9 @@ export default {
     },
     components: {
         HeroCard,
+        HeroModal,
         Swiper,
         SwiperSlide,
-        HeroModal,
     },
     methods: {
         cardClicked(id) {

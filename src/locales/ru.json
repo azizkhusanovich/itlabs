@@ -12,8 +12,18 @@
     "socials": "Ijtimoiy сеть",
     "hero_btn": "Записаться на курс",
     "not_found": "Страница не найдена",
-    "home_text": "Возможно, вы ввели неверный адрес.Попробуйте воспользоваться поиском или перейдите на ",
-    "home": "главную страницу",
+    "about_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
+    "connect_btn": "Связаться с нами",
+    "tabs": {
+        "advantages": "Преимущества",
+        "students": "Студентам",
+        "parents": "Родителям"
+    },
+    "tab_texts": {
+        "advantages": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
+        "students": "Студентам Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
+        "parents": "Родителям Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy."
+    },
     "top_info": {
         "form_suptitle": "Записаться на курс",
         "form_title": "На какой курс вы хотите?",
@@ -23,9 +33,28 @@
         "courses_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
         "questions_suptitle": "Вопросы",
         "questions_title": "Часто задаваемые вопросы?",
-        "questions_subtitle": "Si sine causa, mox videro; interea hoc epicurzus in bonis sit numeranda nec me tamen laudandis."
+        "questions_subtitle": "Si sine causa, mox videro; interea hoc epicurzus in bonis sit numeranda nec me tamen laudandis.",
+        "about_suptitle": "Почему мы?",
+        "about_title": "Почему нас выбирают?",
+        "employee_suptitle": "Наша команда",
+        "employee_title": "Наша команда",
+        "employee_subtitle": "Executive Trade International is an University Application Centre"
     },
     "name_placeholder": "Ваше имя",
     "phone_placeholder": "Ваш номер телефона",
-    "send_btn": "Отправить"
+    "send_btn": "Отправить",
+    "questions": {
+        "question1": "savoldee",
+        "question2": "savoldee",
+        "question3": "savoldee",
+        "question4": "savoldee",
+        "question5": "savoldee"
+    },
+    "answers": {
+        "answer1": "javob",
+        "answer2": "javob",
+        "answer3": "javob",
+        "answer4": "javob",
+        "answer5": "javob"
+    }
 }

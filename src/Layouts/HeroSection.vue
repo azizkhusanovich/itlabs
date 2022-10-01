@@ -11,9 +11,13 @@
                     <p class="hero-text">
                         {{ $t('hero_text') }}
                     </p>
-                    <a href="#prezentation" class="hero-btn">{{
-                        $t('hero_btn')
-                    }}</a>
+                    <app-button
+                        href="#prezentation"
+                        :text="$t('hero_btn')"
+                        :color="'#0FE97E'"
+                        class="green"
+                    ></app-button>
+                    <a class="hero-btn">{{}}</a>
                 </div>
                 <div class="socials">
                     <p class="s-text">{{ $t('socials') }}</p>
@@ -49,14 +53,16 @@
 </template>
 
 <script>
-import TheNavbar from '../components/Navbar/TheNavbar.vue'
-import HeroBottom from '../components/Fields/HeroBottom.vue'
+import TheNavbar from '@/components/Navbar/TheNavbar.vue'
+import HeroBottom from '@/components/Fields/HeroBottom.vue'
+import AppButton from '@/components/AppButton.vue'
 export default {
     name: 'HeroSection',
 
     components: {
         TheNavbar,
         HeroBottom,
+        AppButton,
     },
 }
 </script>

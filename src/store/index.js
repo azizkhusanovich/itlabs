@@ -84,6 +84,38 @@ export default createStore({
         color: '#FF723A',
         value: 'SMM'
       },
+    ],
+    employees: [
+      {
+        id: 1,
+        fullName: 'Aziz Sobirjonov',
+        position: 'Front-End Developer',
+        img: require('@/assets/images/employee.png')
+      },
+      {
+        id: 2,
+        fullName: 'Aziz Sobirjonov',
+        position: 'Front-End Developer',
+        img: require('@/assets/images/employee.png')
+      },
+      {
+        id: 3,
+        fullName: 'Aziz Sobirjonov',
+        position: 'Front-End Developer',
+        img: require('@/assets/images/employee.png')
+      },
+      {
+        id: 4,
+        fullName: 'Aziz Sobirjonov',
+        position: 'Front-End Developer',
+        img: require('@/assets/images/employee.png')
+      },
+      {
+        id: 5,
+        fullName: 'Aziz Sobirjonov',
+        position: 'Front-End Developer',
+        img: require('@/assets/images/employee.png')
+      },
     ]
   },
   getters: {
@@ -113,6 +145,9 @@ export default createStore({
         }
       })
     },
+    getEmployees(state) {
+      return state.employees
+    }
   },
   mutations: {},
   actions: {},
