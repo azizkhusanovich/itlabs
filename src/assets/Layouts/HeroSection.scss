@@ -38,14 +38,6 @@
                     font-size: inherit;
                 }
 
-                @include xxl {
-                    font-size: rem(65);
-                }
-
-                @include xl {
-                    font-size: rem(55);
-                }
-
                 @include xl {
                     font-size: rem(45);
                 }
@@ -55,7 +47,7 @@
                 }
 
                 @include sm {
-                    font-size: rem(32);
+                    font-size: rem(30);
                 }
             }
 
@@ -63,17 +55,15 @@
                 font-family: 'CeraPro-400';
                 font-size: rem(30);
                 line-height: 128%;
-                // color: #ececec;
                 font-weight: 700;
                 padding: toEm(20, 40) 0 toEm(50, 40) 0;
                 color: $light-green;
 
                 @include lg {
-                    font-size: rem(20);
+                    font-size: rem(25);
                 }
-
-                @include sm {
-                    font-size: rem(16);
+                @include md {
+                    font-size: rem(20);
                 }
             }
         }
