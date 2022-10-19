@@ -1,0 +1,94 @@
+.location {
+    &__maps {
+        margin-bottom: rem(80);
+
+        .about__dynamic {
+            width: 100%;
+        }
+
+        .tab-button {
+            width: 50%;
+        }
+    }
+
+    .l-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &__left {
+            width: 48%;
+            @include md {
+                width: 100%;
+                margin-bottom: rem(50);
+            }
+        }
+        &__title {
+            font-family: 'CeraPro-700';
+            font-style: normal;
+            font-weight: 700;
+            font-size: rem(40);
+            line-height: 132%;
+            color: #ffffff;
+
+            @include md {
+                font-size: rem(30);
+            }
+        }
+        &__text {
+            font-family: 'CeraPro-400';
+            font-style: normal;
+            font-weight: 400;
+            font-size: rem(22);
+            line-height: 132%;
+            color: #ffffff;
+            padding: toEm(30, 22) 0;
+
+            @include md {
+                font-size: rem(18);
+            }
+        }
+        &__phone,
+        &__days {
+            font-family: 'CeraPro-400';
+            font-style: normal;
+            font-weight: 400;
+            font-size: rem(20);
+            line-height: 120%;
+            color: #ffffff;
+            padding-bottom: toEm(8, 20);
+            @include md {
+                font-size: rem(18);
+            }
+        }
+        &__right {
+            width: 49%;
+            @include md {
+                width: 100%;
+            }
+        }
+
+        &__form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        &__input {
+            width: 100%;
+            margin-bottom: rem(25);
+            padding: rem(19) rem(30);
+            border: 2px solid transparent;
+            transition: 300ms;
+            font-family: 'CeraPro-400';
+            font-style: normal;
+            font-weight: 400;
+            font-size: rem(16);
+            line-height: 156%;
+
+            &:focus {
+                border-color: $light-green;
+            }
+        }
+    }
+}

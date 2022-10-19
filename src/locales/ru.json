@@ -12,22 +12,24 @@
     "socials": "Ijtimoiy сеть",
     "hero_btn": "Записаться на курс",
     "not_found": "Страница не найдена",
-    "about_text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
+    "about_text": "Наша отличительная черта от других учебных центров - это совершенство учебника, понятный стиль преподавания, потому что особое внимание уделяется каждому ученику. Качество в целом, хотя и значительно превосходит цену, также может мотивировать студентов выбирать IT-Labs.",
     "connect_btn": "Связаться с нами",
     "tabs": {
         "advantages": "Преимущества",
         "students": "Студентам",
-        "parents": "Родителям"
+        "parents": "Родителям",
+        "novza": "Новза",
+        "beruniy": "Беруний"
     },
     "tab_texts": {
-        "advantages": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
+        "advantages": "Мы делаем всё, чтобы выпускников учебного центра \"IT-LABS\" принимали наработу сразу после получение сертификата. Для этого каждый год улучшаем программу, зовём к себе лучших преподавателей которые стремятся обучать всё лучше и лучше.        Прежде чем запустить программу обучения, обсуждаем её с компаниями и экспертами. Это нужно, чтобы в знаниях студентов и самой программе не было слабых мест.",
         "students": "Студентам Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
         "parents": "Родителям Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy."
     },
     "top_info": {
-        "video_suptitle" :"О нас",
-        "video_title" :"Мы даём нашим студентам шанс стать другими людьми",
-        "video_subtitle" :"Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.О нас",
+        "video_suptitle": "О нас",
+        "video_title": "Мы даём нашим студентам шанс стать другими людьми",
+        "video_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.О нас",
         "form_suptitle": "Записаться на курс",
         "form_title": "На какой курс вы хотите?",
         "form_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
@@ -59,5 +61,11 @@
         "answer3": "javob",
         "answer4": "javob",
         "answer5": "javob"
-    }
+    },
+    "location_title": "Свяжитесь с нами",
+    "location_text": "nimadir zor gap",
+    "location_days": "Понедельник-Суббота 14:00-20:00",
+    "location_address": "Toshkent shahar, Chilonzor tumane E-kvartal 9-uy <br> Toshkent shahar, Shayxontohur tumani 7-uy",
+    "footer_text": "Torquem detraxit hosti et quidem se repellere, idque instituit docere.",
+    "footer_title": "Адрес"
 }

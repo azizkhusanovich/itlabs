@@ -1,12 +1,11 @@
 <template>
-    <a class="app-btn" :style="(background = 'color')">{{ text }}</a>
+    <a class="app-btn">{{ text }}</a>
 </template>
 
 <script>
 export default {
-    props: ['text', 'color'],
+    props: ['text'],
 }
 </script>
 
-<style>
-</style>
+<style></style>

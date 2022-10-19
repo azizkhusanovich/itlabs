@@ -8,13 +8,12 @@
         <p class="about__info" v-html="text"></p>
         <app-button
             href="#prezentation"
-            :color="'#fff'"
             :text="$t('connect_btn')"
             class="light"
         ></app-button>
     </div>
     <div class="about__dynamic">
-        <dynamic-tabs></dynamic-tabs>
+        <dynamic-tabs :tabs="tabs" :currentTab="currentTab"></dynamic-tabs>
     </div>
 </template>
 
@@ -25,6 +24,11 @@ import DynamicTabs from '@/components/AboutUs/DynamicTabs.vue'
 export default {
     components: { SectionTop, AppButton, DynamicTabs },
     props: ['text'],
+    data() {
+        return {
+            tabs: ['advantages', 'students', 'parents'],
+            currentTab: 'advantages',
+        }
+    },
 }
 </script>
-
