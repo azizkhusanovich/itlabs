@@ -1,15 +1,15 @@
-import { createStore } from "vuex";
+import { createStore } from 'vuex'
 
 export default createStore({
-  state: {
-    fields: [
-      {
-        id: 1,
-        title: 'Front End <br> <span>  Development </span>',
-        src: require('@/assets/images/front.png'),
-        color: '#2CC56F',
-        value: 'FrontEnd',
-        info: `Kursda nimalarni o'rganasiz? <br>
+    state: {
+        fields: [
+            {
+                id: 1,
+                title: 'Front End <br> <span>  Development </span>',
+                src: require('@/assets/images/front.png'),
+                color: '#2CC56F',
+                value: 'FrontEnd',
+                info: `Kursda nimalarni o'rganasiz? <br>
         <ul>
         <li>🔸 HTML5</li>
         <li>🔸 CCS3</li>
@@ -26,15 +26,15 @@ export default createStore({
         <br>
         📌Kursda ko'plab qiziqarli loyihalar, marafonlar bo'lib o'tadi.  
         <br>
-        🚀Darslarda 100% amaliy bilimlarga ega bo'lasiz.`
-      },
-      {
-        id: 2,
-        title: 'Back End <br> <span>   Development </span>',
-        src: require('@/assets/images/back.png'),
-        color: '#2878EB',
-        value: 'BackEnd',
-        info: `Kursda nimalarni o'rganasiz? <br>
+        🚀Darslarda 100% amaliy bilimlarga ega bo'lasiz.`,
+            },
+            {
+                id: 2,
+                title: 'Back End <br> <span>   Development </span>',
+                src: require('@/assets/images/back.png'),
+                color: '#2878EB',
+                value: 'BackEnd',
+                info: `Kursda nimalarni o'rganasiz? <br>
         <ul>
         <li>✅ Dasturlash asoslari</li>
         <li>✅ Python bilan ishlash</li>
@@ -48,15 +48,15 @@ export default createStore({
         <br>
         📌Kursda ko'plab qiziqarli loyihalar, marafonlar bo'lib o'tadi.  
         <br>
-        🚀Darslarda 100% amaliy bilimlarga ega bo'lasiz.`
-      },
-      {
-        id: 3,
-        title: 'Mobile <br> <span>  Development </span>',
-        src: require('@/assets/images/flutter.jpg'),
-        color: '#F14D5D',
-        value: 'Flutter',
-        info: `Kursda nimalarni o'rganasiz? <br>
+        🚀Darslarda 100% amaliy bilimlarga ega bo'lasiz.`,
+            },
+            {
+                id: 3,
+                title: 'Mobile <br> <span>  Development </span>',
+                src: require('@/assets/images/flutter.jpg'),
+                color: '#F14D5D',
+                value: 'Flutter',
+                info: `Kursda nimalarni o'rganasiz? <br>
         <ul>
         <li>🟢 Dasturlash asoslari</li>
         <li>🟢 Dart bilan ishlash</li>
@@ -68,93 +68,93 @@ export default createStore({
         <br>
         📌Kurs davomida shaxsiy portfoilo yaratasiz. 
         <br>
-        🚀Darslarda 100% amaliy bilimlarga ega bo'lasiz.`
-      },
-      {
-        id: 4,
-        title: 'Graphic Design <br> <span>   Development </span>',
-        src: require('@/assets/images/design.png'),
-        color: '#f1f10c',
-        value: 'Design'
-      },
-      {
-        id: 5,
-        title: 'SMM <br> <span>  Social Media Marketing</span> ',
-        src: require('@/assets/images/smm.png'),
-        color: '#FF723A',
-        value: 'SMM'
-      },
-    ],
-    employees: [
-      {
-        id: 1,
-        fullName: 'Aziz Sobirjonov',
-        position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png'),
-        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
-      },
-      {
-        id: 2,
-        fullName: 'Aziz Sobirjonov',
-        position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png'),
-        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
-      },
-      {
-        id: 3,
-        fullName: 'Aziz Sobirjonov',
-        position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png'),
-        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
-      },
-      {
-        id: 4,
-        fullName: 'Aziz Sobirjonov',
-        position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png'),
-        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
-      },
-      {
-        id: 5,
-        fullName: 'Aziz Sobirjonov',
-        position: 'Front-End Developer',
-        img: require('@/assets/images/employee.png'),
-        info:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.'
-      },
-    ]
-  },
-  getters: {
-    getFields(state) {
-      return state.fields.map(elem => {
-        return {
-          id: elem.id,
-          title: elem.title,
-          src: elem.src,
-          info: elem.info
-        }
-      })
+        🚀Darslarda 100% amaliy bilimlarga ega bo'lasiz.`,
+            },
+            {
+                id: 4,
+                title: 'Graphic Design <br> <span>   Development </span>',
+                src: require('@/assets/images/design.png'),
+                color: '#f1f10c',
+                value: 'Design',
+            },
+            // {
+            //   id: 5,
+            //   title: 'SMM <br> <span>  Social Media Marketing</span> ',
+            //   src: require('@/assets/images/smm.png'),
+            //   color: '#FF723A',
+            //   value: 'SMM'
+            // },
+        ],
+        employees: [
+            {
+                id: 1,
+                fullName: 'Aziz Sobirjonov',
+                position: 'Front-End Developer',
+                img: require('@/assets/images/employee.png'),
+                info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.',
+            },
+            {
+                id: 2,
+                fullName: 'Aziz Sobirjonov',
+                position: 'Front-End Developer',
+                img: require('@/assets/images/employee.png'),
+                info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.',
+            },
+            {
+                id: 3,
+                fullName: 'Aziz Sobirjonov',
+                position: 'Front-End Developer',
+                img: require('@/assets/images/employee.png'),
+                info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.',
+            },
+            {
+                id: 4,
+                fullName: 'Aziz Sobirjonov',
+                position: 'Front-End Developer',
+                img: require('@/assets/images/employee.png'),
+                info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.',
+            },
+            {
+                id: 5,
+                fullName: 'Aziz Sobirjonov',
+                position: 'Front-End Developer',
+                img: require('@/assets/images/employee.png'),
+                info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro recusandae veritatis reiciendis in consectetur dolore repudiandae doloribus aliquam deserunt, autem id.',
+            },
+        ],
     },
-    getOption(state) {
-      return state.fields.map(elem => {
-        return {
-          title: elem.title,
-          value: elem.value
-        }
-      })
+    getters: {
+        getFields(state) {
+            return state.fields.map((elem) => {
+                return {
+                    id: elem.id,
+                    title: elem.title,
+                    src: elem.src,
+                    info: elem.info,
+                }
+            })
+        },
+        getOption(state) {
+            return state.fields.map((elem) => {
+                return {
+                    title: elem.title,
+                    value: elem.value,
+                }
+            })
+        },
+        getCards(state) {
+            return state.fields.map((elem) => {
+                return {
+                    title: elem.title,
+                    color: elem.color,
+                }
+            })
+        },
+        getEmployees(state) {
+            return state.employees
+        },
     },
-    getCards(state) {
-      return state.fields.map(elem => {
-        return {
-          title: elem.title,
-          color: elem.color
-        }
-      })
-    },
-    getEmployees(state) {
-      return state.employees
-    }
-  },
-  mutations: {},
-  actions: {},
-  modules: {},
-});
+    mutations: {},
+    actions: {},
+    modules: {},
+})

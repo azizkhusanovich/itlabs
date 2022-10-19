@@ -1,12 +1,13 @@
 <template>
     <section class="questions">
-        <section-top
-            :suptitle="$t('top_info.questions_suptitle')"
-            :title="$t('top_info.questions_title')"
-            :subtitle="$t('top_info.questions_subtitle')"
-        >
-        </section-top>
-        <div class="container">
+        <div class="container question__container">
+            <section-top
+                :suptitle="$t('top_info.questions_suptitle')"
+                :title="$t('top_info.questions_title')"
+                :subtitle="$t('top_info.questions_subtitle')"
+            >
+            </section-top>
+
             <div class="questions__wrapper">
                 <template v-for="item in 5" :key="item">
                     <question-item
@@ -30,9 +31,3 @@ export default {
     },
 }
 </script>
-
-<style>
-.questions__wrapper {
-    padding-bottom: 150px;
-}
-</style>

@@ -10,14 +10,13 @@
             margin: 0 auto;
             text-align: center;
 
-            @include media (1550px) {
+            @include media(1550px) {
                 width: 80%;
             }
 
             @include xxl {
                 padding: rem(160) 0 rem(80);
             }
-
 
             @include lg {
                 width: 100%;
@@ -38,7 +37,6 @@
                     font-size: inherit;
                     color: $light-green;
                 }
-
 
                 @include xxl {
                     font-size: rem(65);
@@ -65,7 +63,7 @@
                 font-family: 'CeraPro-400';
                 font-size: rem(25);
                 line-height: 128%;
-                color: #ECECEC;
+                color: #ececec;
                 padding: toEm(50, 25) 0;
 
                 @include lg {
@@ -127,7 +125,7 @@
                     }
 
                     &.telegram:hover {
-                        color: #2AABEE;
+                        color: #2aabee;
                     }
                 }
             }

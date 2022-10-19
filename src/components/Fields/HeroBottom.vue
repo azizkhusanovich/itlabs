@@ -88,9 +88,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .hero__block {
     transform: translateY(50%);
+
+    @media (max-width: 767px) {
+        transform: translateY(30%);
+    }
 }
 
 .swiper-slide {

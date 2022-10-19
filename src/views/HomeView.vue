@@ -1,12 +1,12 @@
 <template>
     <hero-section></hero-section>
-    <video-section></video-section>
+    <!-- <video-section></video-section> -->
     <about-us-section></about-us-section>
     <courses-section></courses-section>
     <form-section></form-section>
     <questions-section></questions-section>
-    <each-employee-section></each-employee-section>
-    <employee-section></employee-section>
+    <!-- <each-employee-section></each-employee-section> -->
+    <!-- <employee-section></employee-section> -->
 </template>
 
 <script>
@@ -32,5 +32,4 @@ export default {
     },
 }
 </script>
-<style>
-</style>
+<style></style>
