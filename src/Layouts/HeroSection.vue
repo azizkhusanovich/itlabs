@@ -5,7 +5,6 @@
             <div class="wrapper">
                 <div class="hero">
                     <h1 class="hero-title">
-                        <span>{{ $t('title_active') }}</span>
                         {{ $t('title') }}
                     </h1>
                     <p class="hero-text">

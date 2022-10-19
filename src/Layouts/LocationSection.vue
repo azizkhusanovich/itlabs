@@ -10,7 +10,7 @@
                 </div>
             </div>
 
-            <div class="location__info l-info">
+            <div class="location__info l-info" id="contacts">
                 <div class="l-info__left">
                     <p class="l-info__title">
                         {{ $t('location_title') }}

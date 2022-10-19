@@ -29,13 +29,13 @@
 
             .hero-title {
                 font-family: 'CeraPro-700';
-                font-size: rem(80);
+                font-size: rem(50);
                 line-height: 1;
                 color: $white;
 
                 span {
-                    font-size: inherit;
                     color: $light-green;
+                    font-size: inherit;
                 }
 
                 @include xxl {
@@ -61,10 +61,12 @@
 
             .hero-text {
                 font-family: 'CeraPro-400';
-                font-size: rem(25);
+                font-size: rem(30);
                 line-height: 128%;
-                color: #ececec;
-                padding: toEm(50, 25) 0;
+                // color: #ececec;
+                font-weight: 700;
+                padding: toEm(20, 40) 0 toEm(50, 40) 0;
+                color: $light-green;
 
                 @include lg {
                     font-size: rem(20);
