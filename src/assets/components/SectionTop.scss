@@ -1,5 +1,5 @@
 .top-area {
-    padding: rem(100) 0 rem(70);
+    padding: rem(30) 0;
     text-align: center;
 
     .suptitle {
@@ -7,6 +7,10 @@
         font-size: rem(20);
         line-height: 1;
         color: $light-green;
+
+        @include md {
+            font-size: rem(18);
+        }
     }
 
     .title {
@@ -15,6 +19,13 @@
         padding: toEm(30, 40) 0 toEm(23, 40);
         line-height: 1.02;
         color: #fff;
+
+        @include lg {
+            font-size: rem(30);
+        }
+        @include md {
+            font-size: rem(25);
+        }
     }
 
     .subtitle {
@@ -22,5 +33,13 @@
         font-size: rem(25);
         line-height: 128%;
         color: $gray;
+
+        @include lg {
+            font-size: rem(22);
+        }
+
+        @include md {
+            font-size: rem(16);
+        }
     }
 }

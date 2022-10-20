@@ -1,5 +1,4 @@
 .header {
-
     .modal {
         position: fixed;
         left: 0;
@@ -25,20 +24,16 @@
                 height: 100%;
                 -webkit-transform-style: preserve-3d;
                 transform-style: preserve-3d;
-                -webkit-transition: all .5s linear;
-                transition: all .5s linear;
+                -webkit-transition: all 0.5s linear;
+                transition: all 0.5s linear;
                 border-radius: rem(10);
-                box-shadow: 0 0 rem(10) $light-green,
-                    0 0 rem(15) $light-green,
+                box-shadow: 0 0 rem(10) $light-green, 0 0 rem(15) $light-green,
                     0 0 rem(20) $light-green;
-
-
 
                 &.cardRotated {
                     -webkit-transform: rotateY(180deg);
                     transform: rotateY(180deg);
                 }
-
 
                 .front {
                     position: absolute;
@@ -48,11 +43,10 @@
                     border-radius: rem(10);
                     background: $light-black;
                     padding: rem(30);
-                    transition: all .5s linear;
+                    transition: all 0.5s linear;
                     background: #ffffff10;
                     backdrop-filter: blur(15px);
                     -webkit-backdrop-filter: blur(15px);
-
 
                     .top {
                         width: 100%;
@@ -120,7 +114,7 @@
                 z-index: -1;
                 overflow: hidden;
                 transform: rotateY(180deg);
-                transition: all .5s linear;
+                transition: all 0.5s linear;
                 border-radius: rem(10);
                 padding: rem(30);
                 color: #fff;
@@ -131,5 +125,4 @@
             }
         }
     }
-
 }

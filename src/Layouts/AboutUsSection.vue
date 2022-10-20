@@ -1,5 +1,5 @@
 <template>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container about__container">
             <why-choose-us :text="$t('about_text')"></why-choose-us>
         </div>
@@ -14,6 +14,3 @@ export default {
     },
 }
 </script>
-
-<style>
-</style>

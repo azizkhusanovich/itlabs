@@ -2,10 +2,18 @@
     width: 80%;
     margin-inline: auto;
 
+    @include md {
+        width: 100%;
+    }
+
+    &__container {
+        padding-block: rem(80);
+    }
+
     &__block {
         @include df-between;
         border-bottom: rem(1) solid rgba(255, 255, 255, 0.1);
-        transition: 400ms;
+        transition: 300ms;
         position: relative;
 
         &::after {
@@ -25,6 +33,10 @@
 
         &:hover::after {
             width: 100%;
+
+            @include lg {
+                width: 0;
+            }
         }
     }
 
@@ -35,6 +47,10 @@
         padding: toEm(34, 25) 0;
         line-height: 144%;
         color: $white;
+
+        @include md {
+            font-size: rem(18);
+        }
     }
 
     &__icon {
@@ -57,6 +73,10 @@
         font-size: rem(22);
         line-height: 1.2;
         color: $white;
-        background: #1A1A25;
+        background: #1a1a25;
+
+        @include md {
+            font-size: rem(16);
+        }
     }
 }

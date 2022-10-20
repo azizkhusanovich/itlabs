@@ -2,7 +2,10 @@
     background: #151521;
 
     .form-container {
-        padding-bottom: rem(114);
+        padding-block: rem(80);
+        @include md {
+            padding-top: rem(30);
+        }
     }
 
     .form-block {
@@ -27,7 +30,6 @@
                 height: rem(80);
             }
 
-
             .form-icon {
                 position: absolute;
                 top: 50%;
@@ -40,7 +42,6 @@
             &.open .form-icon {
                 transform: rotate(180deg) translate(50%, 100%);
             }
-
 
             .form-row {
                 width: 100%;
@@ -112,7 +113,6 @@
             line-height: 128%;
             padding: toEm(24, 25) toEm(45, 25);
             color: #fff;
-
 
             @include xxl {
                 flex-basis: 45%;

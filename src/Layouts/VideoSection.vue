@@ -36,6 +36,7 @@ export default {
 }
 .video__full {
     width: 100%;
-    height: 650px;
+    min-height: 300px;
+    /* max-height: 650px; */
 }
 </style>

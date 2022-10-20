@@ -3,7 +3,7 @@
         // flex: 1 0 auto;
         // width: clamp(320px, 100%, 24%);
         padding: rem(35);
-        background: #1A1A25;
+        background: #1a1a25;
         border-radius: 10px;
 
         .img-bl {
@@ -20,8 +20,12 @@
             font-family: 'CeraPro-500';
             font-size: rem(26);
             line-height: 115%;
-            color: #FFFFFF;
+            color: #ffffff;
             padding-top: toEm(40, 26);
+
+            @include md {
+                font-size: rem(22);
+            }
         }
     }
 }

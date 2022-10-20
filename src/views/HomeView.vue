@@ -1,12 +1,14 @@
 <template>
     <hero-section></hero-section>
-    <video-section></video-section>
+    <!-- <video-section></video-section> -->
     <about-us-section></about-us-section>
     <courses-section></courses-section>
     <form-section></form-section>
     <questions-section></questions-section>
-    <each-employee-section></each-employee-section>
-    <employee-section></employee-section>
+    <!-- <each-employee-section></each-employee-section> -->
+    <!-- <employee-section></employee-section> -->
+    <location-section></location-section>
+    <footer-app></footer-app>
 </template>
 
 <script>
@@ -18,6 +20,9 @@ import FormSection from '@/Layouts/FormSection.vue'
 import QuestionsSection from '@/Layouts/QuestionsSection.vue'
 import EachEmployeeSection from '@/Layouts/EachEmployeeSection.vue'
 import EmployeeSection from '@/Layouts/EmployeeSection.vue'
+import LocationSection from '@/Layouts/LocationSection.vue'
+import FooterApp from '@/Layouts/FooterApp.vue'
+
 export default {
     name: 'HomeView',
     components: {
@@ -29,8 +34,9 @@ export default {
         QuestionsSection,
         EachEmployeeSection,
         EmployeeSection,
+        LocationSection,
+        FooterApp,
     },
 }
 </script>
-<style>
-</style>
+<style></style>

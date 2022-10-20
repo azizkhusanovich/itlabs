@@ -1,5 +1,5 @@
 <template>
-    <div :class="['question', { open: show }]">
+    <div :class="show ? 'open' : ' '" class="question">
         <div class="question__block" @click="show = !show">
             <p class="question__text">{{ question }}</p>
             <font-awesome-icon

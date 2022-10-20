@@ -1,20 +1,38 @@
 .about {
-    margin-top: rem(120);
-    background: url('@/assets/images/hero-bg.jpg') no-repeat center / cover;
+    // background: url('@/assets/images/hero-bg.jpg') no-repeat center / cover;
+    background: #151521;
+    padding-top: rem(80);
 
     &__container {
         @include df-between;
         padding-block: rem(100);
         align-items: start;
+
+        @include lg {
+            display: flex;
+            flex-wrap: wrap;
+            padding-block: rem(50);
+        }
     }
 
     &__choose {
         .top-area {
             text-align: left;
             padding: 0;
+
+            @include lg {
+                width: 100%;
+                text-align: center;
+            }
         }
 
         width: 40%;
+
+        @include lg {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 70px;
+        }
     }
 
     &__info {
@@ -23,34 +41,60 @@
         font-size: rem(20);
         line-height: 110%;
         letter-spacing: 0.444444px;
-        color: #FFFFFF;
+        color: #ffffff;
         padding-bottom: toEm(30, 20);
-    }
+        text-align: left;
 
-    &__dynamic {
-        width: 55%;
-    }
-
-    .tab-button {
-        font-family: 'CeraPro-500';
-        font-weight: 500;
-        font-size: rem(20);
-        line-height: 1;
-        color: #FFFFFF;
-        padding: toEm(17, 20) toEm(20, 20);
-
-        &.active {
-            background: $light-green;
+        @include md {
+            font-size: rem(16);
         }
     }
+}
 
-    .tab {
-        font-family: 'CeraPro-400';
-        font-weight: 400;
-        font-size: rem(20);
-        line-height: 110%;
-        letter-spacing: 0.444444px;
-        color: #FFFFFF;
-        padding: toEm(44, 20) 0;
+.about__dynamic {
+    width: 55%;
+
+    @include lg {
+        width: 100%;
+    }
+}
+
+.tab-button {
+    font-family: 'CeraPro-500';
+    font-weight: 500;
+    font-size: rem(20);
+    line-height: 1;
+    color: #ffffff;
+    padding: toEm(17, 20) toEm(20, 20);
+
+    &.active {
+        background: $light-green;
+    }
+
+    @include lg {
+        width: 33.333%;
+    }
+    @include sm {
+        font-size: rem(16);
+        padding: rem(12) rem(5);
+    }
+
+    @include media(425px) {
+        width: 100%;
+        font-size: rem(16);
+    }
+}
+
+.tab {
+    font-family: 'CeraPro-400';
+    font-weight: 400;
+    font-size: rem(20);
+    line-height: 110%;
+    letter-spacing: 0.444444px;
+    color: #ffffff;
+    padding: toEm(44, 20) 0;
+
+    @include md {
+        font-size: rem(16);
     }
 }
