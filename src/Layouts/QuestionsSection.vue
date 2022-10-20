@@ -35,4 +35,4 @@ export default {
 .questions__wrapper {
     padding-bottom: 150px;
 }
-</style>
+</style>``
