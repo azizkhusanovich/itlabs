@@ -2,6 +2,7 @@
     <hero-modal
         v-if="cardOpen"
         :info="cardInfo"
+        :more="getMoreInfo"
         :isOpen="openModal"
         @closeModal="cardOpen = false"
     ></hero-modal>
@@ -84,6 +85,7 @@ export default {
     },
     computed: {
         ...mapGetters(['getFields']),
+        ...mapGetters(['getMoreInfo']),
     },
 }
 </script>

@@ -73,6 +73,7 @@
 
 <script>
 import NavbarLink from './NavbarLink.vue'
+import { mapMutations } from 'vuex'
 export default {
     data() {
         return {
@@ -94,6 +95,7 @@ export default {
         }
     },
     methods: {
+        ...mapMutations(['changeLanguage']),
         setLanguage(event) {
             const pressedElement = event.target
             let language =
@@ -107,6 +109,7 @@ export default {
                     lang: language,
                 },
             })
+            this.changeLanguage(language)
         },
     },
     components: { NavbarLink },

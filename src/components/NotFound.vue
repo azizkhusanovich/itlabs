@@ -1,8 +1,8 @@
 <template>
     <div class="container">
         <p>{{ $t('notFound') }}</p>
-        <router-link :to="{ name: 'Home'}">
-            <button>Home</button>
+        <router-link :to="{ name: 'Home' }">
+            <button>Asosiy sahifaga qaytish</button>
         </router-link>
     </div>
 </template>

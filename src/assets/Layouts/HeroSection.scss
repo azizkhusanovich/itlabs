@@ -28,7 +28,7 @@
             }
 
             .hero-title {
-                font-family: 'CeraPro-700';
+                font-family: 'CeraPro';
                 font-size: rem(50);
                 line-height: 1;
                 color: $white;
@@ -52,7 +52,7 @@
             }
 
             .hero-text {
-                font-family: 'CeraPro-400';
+                font-family: 'CeraPro';
                 font-size: rem(30);
                 line-height: 128%;
                 font-weight: 700;
@@ -84,7 +84,7 @@
             .s-text {
                 writing-mode: vertical-lr;
                 text-orientation: mixed;
-                font-family: 'CeraPro-700';
+                font-family: 'CeraPro';
                 font-size: rem(20);
                 line-height: 1;
                 color: $white;
@@ -123,4 +123,8 @@
             }
         }
     }
+}
+
+.back__input{
+    border-radius: 20px;
 }

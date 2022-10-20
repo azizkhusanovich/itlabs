@@ -5,6 +5,7 @@
         "free_prezentation": "Bepul dars",
         "contact": "Kontakt"
     },
+    "back": "Ortga",
     "call": "Qo'ng'iroq qilish",
     "title": "Siz, maqsadingizga erishishdan bir qadam orqadasiz ",
     "hero_text": "va bu birinchi qadamni tashlash vaqti keldi!",
@@ -22,8 +23,8 @@
     },
     "tab_texts": {
         "advantages": "Biz \"IT-LABS\" o'quv markazi bitiruvchilarini sertifikat olgandan so'ng darhol ishga qabul qilinishlari uchun astoydil harakat qilamiz. Buning uchun har yili biz dasturni takomillashtiramiz, nafaqati bilimi balki o'qitish uslubiga ham alohida e'tibor beramiz. O'quv dasturini boshlashdan oldin biz uni kompaniyalar va mutaxassislar bilan muhokama qilamiz. Bu talabalar bilimida va  yozayotgan kodlarida zaif tomonlar bo'lmasligi uchun muhum ahamiyatga ega.",
-        "students": "talaba Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
-        "parents": "otaona Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy."
+        "students": "Biz o'zimizning talabalarni o'ylagan holda, eng yaxshi talabalarimizni ish bilan taminlashga ko'maklashamiz.<br>  Talabalar bosib o'tmoqchi bo'lgan yo'llairdagi tirbantliklarga qoqilmasliklari uchun, shu yo'lni bosib o'tgan ustozlarni jalb qilganmiz va ular nafaqat sifatli darslarni balki o'zlarining tajribalari bilan ham siz bilan bo'lishadilar. Bu esa o'z o'rnida sizni tezroq rivojlanishingizga katta turtki bo'la oladi.",
+        "parents": "Biz bolalarning sifatli ta'limi uchun, har bir bolaga alohida e'tibor qaratamiz ya'ni, ularning ta'lim olishi va darsni tushunayotganliklarini ko'zdan kechiramiz. Bu bizga darsning sifatini va o'tish strukturasini yaxshilashga, bolaning esa darsga bo'lgan qiziqishini oshirishga yordam beradi. Shunday ekan bolaning ta'limidan va o'qish sifatidan havotir olishga o'rin yo'q"
     },
     "top_info": {
         "video_suptitle": "Biz haqimizda",
@@ -31,18 +32,15 @@
         "video_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.О нас",
         "form_suptitle": "Kursga yozilish",
         "form_title": "Qaysi kursga yozilmoqchisiz?",
-        "form_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
         "courses_suptitle": "Bizning kurslar",
         "courses_title": "Biz zamon talabidagi eng yaxshi kurslarini taklif etamiz.",
         "courses_subtitle": "Bu kurslarni tugatgandan so'ng siz, butun boshli kasbni egallagan bo'lasiz va bu kasb orqali o'z karyerangizni qura olasiz. Ha, aytgancha bu kurslar kelajakdagi talabdor kurslar hisoblanadi.",
         "questions_suptitle": "Savollar",
         "questions_title": "Eng ko'p beriladigan savollar",
-        "questions_subtitle": "Si sine causa, mox videro; interea hoc epicurzus in bonis sit numeranda nec me tamen laudandis.",
         "about_suptitle": "Nega biz?",
         "about_title": "Nega bizni tanlashadi?",
         "employee_suptitle": "Bizning jamoa",
-        "employee_title": "Bizning jamoa",
-        "employee_subtitle": "Executive Trade International is an University Application Centre"
+        "employee_title": "Bizning jamoa"
     },
     "name_placeholder": "Ismingiz",
     "phone_placeholder": "Telefon raqamingiz",
@@ -62,9 +60,10 @@
         "answer5": "javob"
     },
     "location_title": "Biz bilan bog'laning",
-    "location_text": "nimadir zor gap",
+    "location_text": "Bog'lanish orqali o'zingizni qiziqtirayotgan savollarga javob olishingiz mumkun.",
     "location_days": "Dushanba-Shanba 14:00-20:00",
     "location_address": "Toshkent shahar, Chilonzor tumane E-kvartal 9-uy <br> Toshkent shahar, Shayxontohur tumani 7-uy",
     "footer_text": "Torquem detraxit hosti et quidem se repellere, idque instituit docere.",
-    "footer_title": "Manzil"
+    "footer_title": "Manzil",
+    "message": "Xabar qoldiring"
 }

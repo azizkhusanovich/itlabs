@@ -5,10 +5,11 @@
         "free_prezentation": "Пробный урок",
         "contact": "Контакты"
     },
+    "back": "Назад",
     "call": "Позвонить",
     "title": "Вы на шаг отстаете от достижения своей цели.",
     "hero_text": "И пора сделать этот первый шаг!",
-    "socials": "Ijtimoiy сеть",
+    "socials": "Cоциальные сети",
     "hero_btn": "Записаться на курс",
     "not_found": "Страница не найдена",
     "about_text": "Наша отличительная черта от других учебных центров - это совершенство учебника, понятный стиль преподавания, потому что особое внимание уделяется каждому ученику. Качество в целом, хотя и значительно превосходит цену, также может мотивировать студентов выбирать IT-Labs.",
@@ -22,8 +23,8 @@
     },
     "tab_texts": {
         "advantages": "Мы делаем всё, чтобы выпускников учебного центра \"IT-LABS\" принимали наработу сразу после получение сертификата. Для этого каждый год улучшаем программу, зовём к себе лучших преподавателей которые стремятся обучать всё лучше и лучше.        Прежде чем запустить программу обучения, обсуждаем её с компаниями и экспертами. Это нужно, чтобы в знаниях студентов и самой программе не было слабых мест.",
-        "students": "Студентам Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy.",
-        "parents": "Родителям Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat. <br/>    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy eirmod tempor invidunt ut labore et dolore magn aliq erat.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di nonumy."
+        "students": "Мы помогаем нашим лучшим ученикам найти работу. <br>   Мы привлекли наставников, которые прошли этот путь программиста, чтобы студенты не споткнулись в пути по которым они собираются идти, и они поделятся с вами не только качественными уроками, но и своим опытом. Это может стать большим стимулом для вас что бы быстрее развиваться на своем пути.",
+        "parents": "Мы уделяем особое внимание качественному образованию детей, каждому ребенку отдельный подход, чтобы они получали образование и понимали урок. Это помогает нам улучшить качество урока и структуру прохождения, а также повысить интерес ребенка к уроку.Из ходя из этого нет нужды беспокоиться об образовании и качестве обучения ребенка."
     },
     "top_info": {
         "video_suptitle": "О нас",
@@ -31,18 +32,15 @@
         "video_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.О нас",
         "form_suptitle": "Записаться на курс",
         "form_title": "На какой курс вы хотите?",
-        "form_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
         "courses_suptitle": "Наши курсы",
         "courses_title": "Мы предоставляем лучшие курсы на рынке.",
-        "courses_subtitle": "Si sine causa, mox videro; interea hoc epicurus in bonis sit numeranda nec me tamen laudandis.",
+        "courses_subtitle": "После прохождения этих курсов вы, освоите целую профессию и сможете построить свою карьеру. Да, кстати, эти курсы считаются востребованными не только сейчас но и в будущем.",
         "questions_suptitle": "Вопросы",
         "questions_title": "Часто задаваемые вопросы?",
-        "questions_subtitle": "Si sine causa, mox videro; interea hoc epicurzus in bonis sit numeranda nec me tamen laudandis.",
         "about_suptitle": "Почему мы?",
         "about_title": "Почему нас выбирают?",
         "employee_suptitle": "Наша команда",
-        "employee_title": "Наша команда",
-        "employee_subtitle": "Executive Trade International is an University Application Centre"
+        "employee_title": "Наша команда"
     },
     "name_placeholder": "Ваше имя",
     "phone_placeholder": "Ваш номер телефона",
@@ -62,9 +60,10 @@
         "answer5": "javob"
     },
     "location_title": "Свяжитесь с нами",
-    "location_text": "nimadir zor gap",
+    "location_text": "Связь с нами, вы получите подробные ответы на ваши вопросы.",
     "location_days": "Понедельник-Суббота 14:00-20:00",
     "location_address": "Toshkent shahar, Chilonzor tumane E-kvartal 9-uy <br> Toshkent shahar, Shayxontohur tumani 7-uy",
     "footer_text": "Torquem detraxit hosti et quidem se repellere, idque instituit docere.",
-    "footer_title": "Адрес"
+    "footer_title": "Адрес",
+    "message": "Сообщение"
 }

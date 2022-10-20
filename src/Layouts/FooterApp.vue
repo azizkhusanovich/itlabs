@@ -34,7 +34,7 @@ export default {}
     border-top: 2px solid #a2a2a2;
     padding-top: 20px;
     margin: 50px 0;
-    font-family: 'CeraPro-400';
+    font-family: 'CeraPro';
     text-align: center;
     font-style: normal;
     font-weight: 400;

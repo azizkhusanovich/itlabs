@@ -41,7 +41,7 @@
     }
 
     &__text {
-        font-family: 'CeraPro-400';
+        font-family: 'CeraPro';
         font-weight: 400;
         font-size: rem(25);
         padding: toEm(34, 25) 0;
@@ -56,11 +56,11 @@
     &__icon {
         font-size: rem(25);
         color: $white;
-        transition: 300ms;
+        transition: 500ms;
     }
 
     &.open .question__icon {
-        transform: rotate(-90deg);
+        transform: rotate(180deg);
         color: $light-green;
     }
 

@@ -4,15 +4,9 @@ import router from "./router";
 import store from "./store";
 import i18n from "./i18n";
 import './assets/main.scss'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faInstagram, faFacebook, faTelegram } from '@fortawesome/free-brands-svg-icons'
-import { faGraduationCap, faLaptopCode, faChevronDown, faArrowLeftLong } from '@fortawesome/free-solid-svg-icons'
-library.add(faInstagram, faFacebook, faTelegram, faGraduationCap, faLaptopCode, faChevronDown, faArrowLeftLong)
 
 createApp(App)
     .use(i18n)
     .use(store)
     .use(router)
-    .component('font-awesome-icon', FontAwesomeIcon)
     .mount("#app");

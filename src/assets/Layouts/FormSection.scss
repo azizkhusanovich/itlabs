@@ -3,6 +3,7 @@
 
     .form-container {
         padding-block: rem(80);
+
         @include md {
             padding-top: rem(30);
         }

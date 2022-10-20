@@ -13,13 +13,13 @@
 
 <script>
 import HeroSection from '@/Layouts/HeroSection.vue'
-import VideoSection from '@/Layouts/VideoSection.vue'
+// import VideoSection from '@/Layouts/VideoSection.vue'
 import AboutUsSection from '@/Layouts/AboutUsSection.vue'
 import CoursesSection from '@/Layouts/CoursesSection.vue'
 import FormSection from '@/Layouts/FormSection.vue'
 import QuestionsSection from '@/Layouts/QuestionsSection.vue'
-import EachEmployeeSection from '@/Layouts/EachEmployeeSection.vue'
-import EmployeeSection from '@/Layouts/EmployeeSection.vue'
+// import EachEmployeeSection from '@/Layouts/EachEmployeeSection.vue'
+// import EmployeeSection from '@/Layouts/EmployeeSection.vue'
 import LocationSection from '@/Layouts/LocationSection.vue'
 import FooterApp from '@/Layouts/FooterApp.vue'
 
@@ -27,13 +27,13 @@ export default {
     name: 'HomeView',
     components: {
         HeroSection,
-        VideoSection,
+        // VideoSection,
         AboutUsSection,
         CoursesSection,
         FormSection,
         QuestionsSection,
-        EachEmployeeSection,
-        EmployeeSection,
+        // EachEmployeeSection,
+        // EmployeeSection,
         LocationSection,
         FooterApp,
     },

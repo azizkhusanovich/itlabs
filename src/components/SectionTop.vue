@@ -19,7 +19,7 @@ export default {
         },
         subtitle: {
             type: String,
-            required: true,
+            required: false,
         },
     },
 }
