@@ -4,7 +4,7 @@
         :info="cardInfo"
         :more="getMoreInfo"
         :isOpen="openModal"
-        @closeModal="cardOpen = false"
+        @closeModal="closeModal"
     ></hero-modal>
     <div class="hero__block">
         <swiper
@@ -77,10 +77,14 @@ export default {
             this.cardOpen = true
             const clickedElement = this.getFields.find((elem) => elem.id == id)
             this.cardInfo = clickedElement
+            document.body.style.overflow = 'hidden'
         },
         openModal() {
             this.cardOpen = true
-            document.body.classList.add('hidden')
+        },
+        closeModal() {
+            document.body.style.overflow = 'auto'
+            this.cardOpen = false
         },
     },
     computed: {

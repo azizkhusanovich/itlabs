@@ -6,27 +6,26 @@ export default createStore({
         fields: [
             {
                 id: 1,
-                title: 'Front End <br> <span>  Development </span>',
+                title: 'Front End <br> <span> Development </span>',
                 src: require('@/assets/images/front.png'),
                 color: '#2CC56F',
                 value: 'FrontEnd',
                 info: {
                     uz: {
-                        front: `Front-end kursida siz asosiy dasturlash tillarini, zamonaviy saytlar yaratishni, eng sodda vositalar bilan ishlashni va umumman olganda noldan-dasturchigacha bo'lgan qadamlarni bosib o'tasiz.
+                        front: `Front-end kursida siz asosiy dasturlash tillarini, zamonaviy saytlar yaratishni va umumman olganda noldan-dasturchigacha bo'lgan qadamlarni bosib o'tasiz.
 <br>
                         Eng asosiysi atigi 6 oy ichida siz, dasturlash uchun kerak bo'ladigan barcha ko'nikma va qobiliyatlarga ega bo'lasiz. 
                         <br>
                         Bunday zamonaviy kasbga qiziqar ekansiz, tabiyki har xil savol va hayollar: O'qisammikan?, eplay olamanmi?, balki mening soham emasdir? kabi savollar sizni tinch qo'ymaydi, chunki hayotingizdagi eng muhim qadamlardan biri bu-kasb tanlashdir va shu bosqichga yetib kelganingizning o'zi quvonarlidir.
                         <br>
                         Shuni ishonch bilan ayta olamizki, siz tashlayotgan qadam, sizning kelajagingiz uchun eng yaxshi tanlovdir. 
-                        "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."
-                        <br>
-                        Ha, aytgancha qimmat vaqtingizni ayamaganingiz uchun rahmat, shuni eslatib o'tamizki vaqt bu - qaytarib bo'lmas resursdir. (Vaqtingizni qidirishga sarflab, oylarni yutkazib qo'ymang)`,
+                        "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."`,
+
                         back: `To'g'ri yo'lda ekanligingizga aminmiz.
                         Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`
                     },
                     ru: {
-                        front: `В курсе Front-end вы узнаете об основных языках программирования, создании современных сайтов, работе с простейшими инструментами и, в целом, о шагах от нуля до программиста.
+                        front: `В курсе Front-end вы узнаете об основных языках программирования, создании современных сайтов и в целом, о шагах от нуля до программиста.
 <br>
                         Главное, что всего за 6 месяцев вы,  приобретете все навыки и умения, необходимые для программирования. 
                         <br>
@@ -34,8 +33,7 @@ export default createStore({
                         <br>
                         Мы можем с уверенностью сказать, что шаг, который вы делаете, является лучшим выбором для вашего будущего. 
                         "Лучшее вложение-это вложение в знания."
-                        <br>
-                        Да, кстати, спасибо, что не пожалели своего драгоценного времени, напоминаем, что время - это необратимый ресурс. (Не теряйте месяцы, тратя время на поиски)`,
+                       `,
                         back: `Мы уверены, что вы на правильном пути.
                         Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`
                     }
@@ -43,7 +41,7 @@ export default createStore({
             },
             {
                 id: 2,
-                title: 'Back End <br> <span>   Development </span>',
+                title: 'Back End <br> <span> Development </span>',
                 src: require('@/assets/images/back.png'),
                 color: '#2878EB',
                 value: 'BackEnd',
@@ -53,26 +51,22 @@ export default createStore({
 <br>
                         Atigi 6 oylik kursda siz, hozirgi zamonning eng mashhur kasblaridan biri bo'lgan Back-end yo'nalishining barcha kerakli ko'nikmalarni o'zlashtirasiz.
                         <br>
-                        Bunday zamonaviy kasbga qiziqar ekansiz, tabiyki har xil savol va hayollar: O'qisammikan?, eplay olamanmi?, balki mening soham emasdir? kabi savollar sizni tinch qo'ymaydi, chunki hayotingizdagi eng muhim qadamlardan biri bu-kasb tanlashdir va shu bosqichga yetib kelganingizning o'zi quvonarlidir.
+                        Bunday zamonaviy kasbga qiziqar ekansiz, tabiiyki har xil savol va hayollar: O'qisammikan?, eplay olamanmi?, balki mening soham emasdir? kabi savollar sizni tinch qo'ymaydi, chunki hayotingizdagi eng muhim qadamlardan biri bu-kasb tanlashdir va shu bosqichga yetib kelganingizning o'zi quvonarlidir.
                         <br>
                         Shuni ishonch bilan ayta olamizki, siz tashlayotgan qadam, sizning kelajagingiz uchun eng yaxshi tanlovdir. 
-                        "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."
-                        <br>
-                        Ha, aytgancha qimmat vaqtingizni ayamaganingiz uchun rahmat, shuni eslatib o'tamizki vaqt bu - qaytarib bo'lmas resursdir. (Vaqtingizni qidirishga sarflab, oylarni yutkazib qo'ymang)`,
+                        "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."`,
                         back: `To'g'ri yo'lda ekanligingizga aminmiz.
                         Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`
                     },
                     ru: {
                         front: `Back-end-Это универсальное и популярное направление в программирования. На курсе Back-end вы узнаете, как создавать современные веб-приложения, интернет-магазины и сложных ботов Telegram.
 <br>
-                        Всего за 6 месяцев курса вы овладеете всеми необходимыми навыками Back-end, одной из самых популярных профессий на данный момент и в будущем.
+                        Всего за 6 месяцев курса вы овладеете всеми необходимыми навыками Back-end.
                         <br>
                         Интересуясь такой современной профессией, естественно возникают всевозможные вопросы: можно ли научиться этому?,может я не смогу?, может быть, не моя профессия? Такие вопросы не оставят вас в покое, потому что один из самых важных шагов в вашей жизни-это выбор профессии, и приятно, что вы достигли этой стадии.
                         <br>
                         Мы можем с уверенностью сказать, что шаг, который вы делаете, является лучшим выбором для вашего будущего.
-                        "Лучшее вложение-это вложение в знания."
-                        <br>
-                        Да, кстати, спасибо, что не пожалели своего драгоценного времени, напоминаем, что время - это необратимый ресурс. (Не теряйте месяцы, тратя время на поиски)`,
+                        "Лучшее вложение-это вложение в знания."`,
                         back: `Мы уверены, что вы на правильном пути.
                         Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`
                     }
@@ -80,7 +74,7 @@ export default createStore({
             },
             {
                 id: 3,
-                title: 'Mobile <br> <span>  Development </span>',
+                title: 'Mobile <br> <span> Development </span>',
                 src: require('@/assets/images/flutter.jpg'),
                 color: '#F14D5D',
                 value: 'Flutter',
@@ -90,12 +84,10 @@ export default createStore({
 <br>
                         Mobil ilovalarni yaratish, ularni o'zgartirish hamda ular orqali daromad qilish zamonamizning eng yaxshi kasblaridan biriga aylanishga ulgurib bo'lgan.
                         <br>
-                        Bunday zamonaviy kasbga qiziqar ekansiz, tabiyki har xil savol va hayollar: O'qisammikan?, eplay olamanmi?, balki mening soham emasdir? kabi savollar sizni tinch qo'ymaydi, chunki hayotingizdagi eng muhim qadamlardan biri bu-kasb tanlashdir va shu bosqichga yetib kelganingizning o'zi quvonarlidir.
+                        Bunday zamonaviy kasbga qiziqar ekansiz, tabiiyki har xil savol va hayollar: O'qisammikan?, eplay olamanmi?, balki mening soham emasdir? kabi savollar sizni tinch qo'ymaydi, chunki hayotingizdagi eng muhim qadamlardan biri bu-kasb tanlashdir va shu bosqichga yetib kelganingizning o'zi quvonarlidir.
                         <br>
                         Shuni ishonch bilan ayta olamizki, siz tashlayotgan qadam, sizning kelajagingiz uchun eng yaxshi tanlovdir. 
-                        "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."
-                        <br>
-                        Ha, aytgancha qimmat vaqtingizni ayamaganingiz uchun rahmat, shuni eslatib o'tamizki vaqt bu - qaytarib bo'lmas resursdir. (Vaqtingizni qidirishga sarflab, oylarni yutkazib qo'ymang)`,
+                        "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."`,
                         back: `To'g'ri yo'lda ekanligingizga aminmiz.
                         Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`
                     },
@@ -107,9 +99,7 @@ export default createStore({
                         Интересуясь такой современной профессией, естественно возникают всевозможные вопросы: можно ли научиться этому?,может я не смогу?, может быть, не моя профессия? Такие вопросы не оставят вас в покое, потому что один из самых важных шагов в вашей жизни-это выбор профессии, и приятно, что вы достигли этой стадии.
                         <br>
                         Мы можем с уверенностью сказать, что шаг, который вы делаете, является лучшим выбором для вашего будущего. 
-                        "Лучшее вложение-это вложение в знания."
-                        <br>
-                        Да, кстати, спасибо, что не пожалели своего драгоценного времени, напоминаем, что время - это необратимый ресурс. (Не теряйте месяцы, тратя время на поиски)`,
+                        "Лучшее вложение-это вложение в знания."`,
                         back: `Мы уверены, что вы на правильном пути.
                         Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`
                     }
@@ -117,18 +107,34 @@ export default createStore({
             },
             {
                 id: 4,
-                title: 'Graphic Design <br> <span>   Development </span>',
+                title: 'Graphic Design <br> <span> Development </span>',
                 src: require('@/assets/images/design.png'),
                 color: '#f1f10c',
                 value: 'Design',
                 info: {
                     uz: {
-                        front: ``,
-                        back: ``
+                        front: `Mobile development kursida siz, turli murakkab dasturlarni ishlab chiqishni, shuningdek Android, iOS va Windows operatsion tizimlari bilan ishlashni o'rganasiz.
+<br>
+                        Mobil ilovalarni yaratish, ularni o'zgartirish hamda ular orqali daromad qilish zamonamizning eng yaxshi kasblaridan biriga aylanishga ulgurib bo'lgan.
+                        <br>
+                        Bunday zamonaviy kasbga qiziqar ekansiz, tabiiyki har xil savol va hayollar: O'qisammikan?, eplay olamanmi?, balki mening soham emasdir? kabi savollar sizni tinch qo'ymaydi, chunki hayotingizdagi eng muhim qadamlardan biri bu-kasb tanlashdir va shu bosqichga yetib kelganingizning o'zi quvonarlidir.
+                        <br>
+                        Shuni ishonch bilan ayta olamizki, siz tashlayotgan qadam, sizning kelajagingiz uchun eng yaxshi tanlovdir. 
+                        "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."`,
+                        back: `To'g'ri yo'lda ekanligingizga aminmiz.
+                        Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`
                     },
                     ru: {
-                        front: ``,
-                        back: ``
+                        front: `На курсе Mobile development вы узнаете, как разрабатывать различные сложные приложения, а также работать с операционными системами Android, iOS и Windows.
+                        <br>
+                        Создание мобильных приложений, их модификация и заработок на них стали одной из лучших профессий современности.
+                        <br>
+                        Интересуясь такой современной профессией, естественно возникают всевозможные вопросы: можно ли научиться этому?,может я не смогу?, может быть, не моя профессия? Такие вопросы не оставят вас в покое, потому что один из самых важных шагов в вашей жизни-это выбор профессии, и приятно, что вы достигли этой стадии.
+                        <br>
+                        Мы можем с уверенностью сказать, что шаг, который вы делаете, является лучшим выбором для вашего будущего. 
+                        "Лучшее вложение-это вложение в знания."`,
+                        back: `Мы уверены, что вы на правильном пути.
+                        Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`
                     }
                 }
             },

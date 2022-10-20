@@ -116,7 +116,7 @@ export default {
                 userPhone: null,
                 textarea: null,
             },
-            TOKEN: '5449372418:AAGIHHcALleFb-8ps8i7cQZeunI7zZ2hsmw',
+            TOKEN: '5025055761:AAEcg-XvUK4qGD77di0MBJxru_Ul_xxUQw0',
             CHAT_ID: '-710487813',
         }
     },

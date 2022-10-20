@@ -100,7 +100,7 @@ export default {
                 userName: null,
                 userPhone: null,
             },
-            TOKEN: '5449372418:AAGIHHcALleFb-8ps8i7cQZeunI7zZ2hsmw',
+            TOKEN: '5025055761:AAEcg-XvUK4qGD77di0MBJxru_Ul_xxUQw0',
             CHAT_ID: '-710487813',
         }
     },
@@ -157,10 +157,7 @@ export default {
                 🌐 Website: %0A
                 🙎🏻‍♂️ Ismi: ${this.userName} %0A
                 📞 Nomer: ${(this, this.userPhone)} %0A
-                💻 Yo'nalish: ${this.activeOption.replaceAll(
-                    this.regexText,
-                    ''
-                )}
+                💻 Yo'nalish: ${this.activeOption.replaceAll(this.regexText)}
                 `
                 await fetch(
                     `https://api.telegram.org/bot${this.TOKEN}/sendMessage?chat_id=${this.CHAT_ID}&text=${info}&parse_mode=html`

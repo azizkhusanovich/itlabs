@@ -22,8 +22,35 @@
                     </button>
                 </div>
                 <div class="back">
+                    <button class="btn" @click="cardRotated = !cardRotated">
+                        <svg
+                            width="18"
+                            height="16"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"
+                        >
+                            <path
+                                fill="white"
+                                d="M48.5 224H40c-13.3 0-24-10.7-24-24V72c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2L98.6 96.6c87.6-86.5 228.7-86.2 315.8 1c87.5 87.5 87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3c-62.2-62.2-162.7-62.5-225.3-1L185 183c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8H48.5z"
+                            />
+                        </svg>
+                    </button>
+
                     <div class="form-modal">
+                        <p class="back__text">
+                            {{ activeCard.back }}
+                        </p>
                         <form class="l-info__form" @submit.prevent="submit">
+                            <div class="l-info__block">
+                                <input
+                                    name="field"
+                                    type="text"
+                                    class="l-info__input back__input"
+                                    readonly
+                                    v-model="currentField"
+                                />
+                            </div>
+
                             <div class="l-info__block">
                                 <input
                                     name="userName"
@@ -72,7 +99,7 @@
                             </button>
                         </form>
                         <!-- <button
-                            class="btn-course"
+                            class="btn-course btn-course-back"
                             @click="cardRotated = !cardRotated"
                         >
                             {{ $t('back') }}
@@ -86,7 +113,7 @@
 
 <script>
 export default {
-    props: ['info', 'isOpen', 'cardId,', 'more'],
+    props: ['info', 'isOpen', 'more'],
     emits: ['closeModal'],
     data() {
         return {
@@ -100,13 +127,16 @@ export default {
                 userName: null,
                 userPhone: null,
             },
-            TOKEN: '5449372418:AAGIHHcALleFb-8ps8i7cQZeunI7zZ2hsmw',
+            TOKEN: '5025055761:AAEcg-XvUK4qGD77di0MBJxru_Ul_xxUQw0',
             CHAT_ID: '-710487813',
         }
     },
     computed: {
         activeCard() {
             return this.more.find((elem) => elem.id === this.info.id)
+        },
+        currentField() {
+            return this.info.title.replaceAll(this.regexText, '')
         },
     },
 
@@ -144,13 +174,12 @@ export default {
         async submit() {
             this.checkUserName()
             this.checkUserPhone()
-            this.checkTextarea()
             if (Object.values(this.errors).every((e) => e === null)) {
                 const info = `
                 🌐 Website: %0A
                 🙎🏻‍♂️ Ismi: ${this.userName} %0A
                 📞 Nomer: ${this.userPhone} %0A
-                💻 Yo'nalish: ${this.textarea}
+                💻 Yo'nalish: ${this.currentField}
                 `
                 await fetch(
                     `https://api.telegram.org/bot${this.TOKEN}/sendMessage?chat_id=${this.CHAT_ID}&text=${info}&parse_mode=html`
@@ -158,7 +187,6 @@ export default {
 
                 this.userName = ''
                 this.userPhone = ''
-                this.textarea = ''
             }
         },
     },
