@@ -3,6 +3,7 @@
 
     .form-container {
         padding-block: rem(80);
+        position: relative;
 
         @include md {
             padding-top: rem(30);
@@ -22,6 +23,7 @@
             flex: 1 0 25%;
             height: rem(100);
             position: relative;
+            z-index: 100;
 
             @include xl {
                 flex-basis: 100%;
@@ -77,6 +79,7 @@
         .form-item {
             flex: 1 0 25%;
             height: rem(100);
+            position: relative;
 
             @include xl {
                 flex-basis: 45%;
@@ -95,6 +98,7 @@
             padding: toEm(10, 25) toEm(30, 25);
             color: #000000;
             background: #fff;
+            font-family: 'CeraPro';
 
             @include xl {
                 font-size: rem(22);

@@ -46,23 +46,21 @@
     "phone_placeholder": "Telefon raqamingiz",
     "send_btn": "Yuborish",
     "questions": {
-        "question1": "savoldee",
-        "question2": "savoldee",
-        "question3": "savoldee",
-        "question4": "savoldee",
-        "question5": "savoldee"
+        "question1": "To'lovni qismlarga bo'lib to'lash mumkinmi?",
+        "question2": "Sizning sertifikatingiz qanday kuchga ega? U rasmiymi? U biron bir joyda ro'yxatdan o'ganmi?",
+        "question3": "Kurs qanday o'tiladi?",
+        "question4": "Qayerda joylashgansizlar?"
     },
     "answers": {
-        "answer1": "javob",
-        "answer2": "javob",
-        "answer3": "javob",
-        "answer4": "javob",
-        "answer5": "javob"
+        "answer1": "Talabalarga qulaylik yaratish uchun biz eng optimal narxlarni qo'ydik va kursni har oy qismlarga bo'lib to'lash mumkin bo'ladi.",
+        "answer2": "Sertifikat-bu kursda o'qiganligingizni tasdiqlovchi hujjat. Bizda barcha zarur litsenziyalar mavjud. Sertifikatda bizning muhrimiz va direktorning imzosi mavjud. <br> Biz uchun eng muhimi, bitiruvchilarimizning natijalari va ular kursni qanday o'zlashtirishlari. Biz o'z obro'imizni qadrlaymiz va bitiruvchilarimizning yutuqlari bilan faxrlanamiz. Agar biror kishi o'qishga undamaganini yoki aslida bu kursga muhtoj emasligini ko'rsak, biz uni kursimizga  yozmaymiz.",
+        "answer3": "Kurslarimiz 6 oy (Dasturlash) davom etadi, darslar haftasiga 3 marta 1,5 - 2 soat dan bo'lib o'tadi. <br> Biz barcha kurs talabalarini telegram kanalga qo'shamiz va darsdan so'ng materiallar guruhga yuboriladi. <br>Kurs davomid o'qituvchi va yordamchilar  siz bilan aloqada bo'lib turadilar, ular sizning har qanday savolingizga javob bera oladi va kerak bo'lganda yordam berishadi.<br>Umuman olganda, guruhda 10-14 kishi tahsil oladi. Bu esa sizni yaxshi o'zlashtirishingiz uchun katta hissa bo'la oladi",
+        "answer4": "Biz Novza metrosi yaqinida joylashganmiz (TRUST-BANK) <br> Batafsil joylashuv va yo'l sxemasini telegram orqali yuborishimiz mumkun. Quyida telefon nomerni yozib qoldiramiz. <br>+998(98) 121-98-08"
     },
     "location_title": "Biz bilan bog'laning",
     "location_text": "Bog'lanish orqali o'zingizni qiziqtirayotgan savollarga javob olishingiz mumkun.",
     "location_days": "Dushanba-Shanba 14:00-20:00",
-    "location_address": "Toshkent shahar, Chilonzor tumane E-kvartal 9-uy <br> Toshkent shahar, Shayxontohur tumani 7-uy",
+    "location_address": "Toshkent shahar, Chilonzor tumani E-kvartal 9-uy <br> Toshkent shahar, Olmazor tumani Beruniy 7",
     "footer_text": "Torquem detraxit hosti et quidem se repellere, idque instituit docere.",
     "footer_title": "Manzil",
     "message": "Xabar qoldiring"

@@ -1,9 +1,10 @@
 <template>
-    <p v-if="isLoading">loading...</p>
+    <app-loader v-if="isLoading"></app-loader>
     <router-view v-else />
 </template>
 
 <script>
+import AppLoader from '@/components/AppLoader.vue'
 export default {
     name: 'App',
     data() {
@@ -18,9 +19,9 @@ export default {
     mounted() {
         this.isLoading = false
     },
+
+    components: {
+        AppLoader,
+    },
 }
 </script>
-
-<style lang="scss">
-</style>
-

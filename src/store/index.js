@@ -22,7 +22,7 @@ export default createStore({
                         "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."`,
 
                         back: `To'g'ri yo'lda ekanligingizga aminmiz.
-                        Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`
+                        Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`,
                     },
                     ru: {
                         front: `В курсе Front-end вы узнаете об основных языках программирования, создании современных сайтов и в целом, о шагах от нуля до программиста.
@@ -35,9 +35,9 @@ export default createStore({
                         "Лучшее вложение-это вложение в знания."
                        `,
                         back: `Мы уверены, что вы на правильном пути.
-                        Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`
-                    }
-                }
+                        Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`,
+                    },
+                },
             },
             {
                 id: 2,
@@ -56,7 +56,7 @@ export default createStore({
                         Shuni ishonch bilan ayta olamizki, siz tashlayotgan qadam, sizning kelajagingiz uchun eng yaxshi tanlovdir. 
                         "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."`,
                         back: `To'g'ri yo'lda ekanligingizga aminmiz.
-                        Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`
+                        Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`,
                     },
                     ru: {
                         front: `Back-end-Это универсальное и популярное направление в программирования. На курсе Back-end вы узнаете, как создавать современные веб-приложения, интернет-магазины и сложных ботов Telegram.
@@ -68,9 +68,9 @@ export default createStore({
                         Мы можем с уверенностью сказать, что шаг, который вы делаете, является лучшим выбором для вашего будущего.
                         "Лучшее вложение-это вложение в знания."`,
                         back: `Мы уверены, что вы на правильном пути.
-                        Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`
-                    }
-                }
+                        Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`,
+                    },
+                },
             },
             {
                 id: 3,
@@ -89,7 +89,7 @@ export default createStore({
                         Shuni ishonch bilan ayta olamizki, siz tashlayotgan qadam, sizning kelajagingiz uchun eng yaxshi tanlovdir. 
                         "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."`,
                         back: `To'g'ri yo'lda ekanligingizga aminmiz.
-                        Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`
+                        Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`,
                     },
                     ru: {
                         front: `На курсе Mobile development вы узнаете, как разрабатывать различные сложные приложения, а также работать с операционными системами Android, iOS и Windows.
@@ -101,9 +101,9 @@ export default createStore({
                         Мы можем с уверенностью сказать, что шаг, который вы делаете, является лучшим выбором для вашего будущего. 
                         "Лучшее вложение-это вложение в знания."`,
                         back: `Мы уверены, что вы на правильном пути.
-                        Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`
-                    }
-                }
+                        Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`,
+                    },
+                },
             },
             {
                 id: 4,
@@ -113,30 +113,30 @@ export default createStore({
                 value: 'Design',
                 info: {
                     uz: {
-                        front: `Mobile development kursida siz, turli murakkab dasturlarni ishlab chiqishni, shuningdek Android, iOS va Windows operatsion tizimlari bilan ishlashni o'rganasiz.
+                        front: `Grafik dizayn kursida siz Photoshop, Adobe Illustrator, Figma kabi dasturlarni to'liq o'rganasiz, undan tashqari dizayndagi texnikalar va qoidalarni qo'llashni tushunib yetasiz.
 <br>
-                        Mobil ilovalarni yaratish, ularni o'zgartirish hamda ular orqali daromad qilish zamonamizning eng yaxshi kasblaridan biriga aylanishga ulgurib bo'lgan.
+                        Eng asosiysi atigi 4 oy ichida siz, butun dunyodagi professional studiyalar foydalanadigan grafik dizaynerning ishi uchun eng dolzarb dasturlarni to'liq o'rganasiz. U dasturlar orqali hozirda talab ko'p bo'lgan Brending, Web-dizayn, SMM dizayn, Banner reklama kabi ishlarni osonlik bilan qila boshlaysiz,. 
                         <br>
-                        Bunday zamonaviy kasbga qiziqar ekansiz, tabiiyki har xil savol va hayollar: O'qisammikan?, eplay olamanmi?, balki mening soham emasdir? kabi savollar sizni tinch qo'ymaydi, chunki hayotingizdagi eng muhim qadamlardan biri bu-kasb tanlashdir va shu bosqichga yetib kelganingizning o'zi quvonarlidir.
+                        Bunday zamonaviy kasbga qiziqar ekansiz, tabiyki har xil savol va hayollar: O'qisammikan?, eplay olamanmi?, balki mening soham emasdir? kabi savollar sizni tinch qo'ymaydi, chunki hayotingizdagi eng muhim qadamlardan biri bu-kasb tanlashdir va shu bosqichga yetib kelganingizning o'zi quvonarlidir.
                         <br>
                         Shuni ishonch bilan ayta olamizki, siz tashlayotgan qadam, sizning kelajagingiz uchun eng yaxshi tanlovdir. 
                         "Eng yaxshi investitsiya, bilimga qilingan investitsiyadir."`,
                         back: `To'g'ri yo'lda ekanligingizga aminmiz.
-                        Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`
+                        Ismingiz va Telefon raqamingizni qoldiring va tez orada siz bilan bog'lanamiz.`,
                     },
                     ru: {
-                        front: `На курсе Mobile development вы узнаете, как разрабатывать различные сложные приложения, а также работать с операционными системами Android, iOS и Windows.
+                        front: `На курсе графического дизайна вы полностью изучите такие программы, как Photoshop, Adobe Illustrator, Figma а также поймете, как применять методы и правила в дизайне.
+<br>
+                        Самое главное, что всего за 4 месяца вы полностью изучите самые актуальные программы для работы графического дизайнера. С помощью этих программ вы можете легко начать делать такие вещи, как брендинг, веб-дизайн, SMM-дизайн, баннерная реклама, которые сейчас пользуются большим спросом.
                         <br>
-                        Создание мобильных приложений, их модификация и заработок на них стали одной из лучших профессий современности.
+                        Интересуясь такой современной профессией, естественно возникают всевозможные вопросы: может я не смогу?, может быть, не моя профессия? такие вопросы, как "почему?" не оставят вас в покое, потому что один из самых важных шагов в вашей жизни-это выбор профессии, и приятно, что вы достигли этой стадии.
                         <br>
-                        Интересуясь такой современной профессией, естественно возникают всевозможные вопросы: можно ли научиться этому?,может я не смогу?, может быть, не моя профессия? Такие вопросы не оставят вас в покое, потому что один из самых важных шагов в вашей жизни-это выбор профессии, и приятно, что вы достигли этой стадии.
-                        <br>
-                        Мы можем с уверенностью сказать, что шаг, который вы делаете, является лучшим выбором для вашего будущего. 
+                        Мы можем с уверенностью сказать, что шаг, который вы делаете, является лучшим выбором для вашего будущего.
                         "Лучшее вложение-это вложение в знания."`,
                         back: `Мы уверены, что вы на правильном пути.
-                        Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`
-                    }
-                }
+                        Оставьте свое имя и номер телефона, и мы свяжемся с вами в ближайшее время.`,
+                    },
+                },
             },
             // {
             //   id: 5,
@@ -217,7 +217,7 @@ export default createStore({
                     return {
                         id: elem.id,
                         front: elem.info.uz.front,
-                        back: elem.info.uz.back
+                        back: elem.info.uz.back,
                     }
                 })
             } else {
@@ -225,19 +225,19 @@ export default createStore({
                     return {
                         id: elem.id,
                         front: elem.info.ru.front,
-                        back: elem.info.ru.back
+                        back: elem.info.ru.back,
                     }
                 })
             }
-        }
+        },
         // getEmployees(state) {
         //     return state.employees
         // },
     },
     mutations: {
         changeLanguage(state, lang) {
-            return state.currentLanguage = lang
-        }
+            return (state.currentLanguage = lang)
+        },
     },
     actions: {},
     modules: {},

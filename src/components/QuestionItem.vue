@@ -1,7 +1,7 @@
 <template>
     <div :class="show ? 'open' : ' '" class="question">
         <div class="question__block" @click="show = !show">
-            <p class="question__text">{{ question }}</p>
+            <p class="question__text" v-html="question"></p>
 
             <svg
                 class="question__icon"
@@ -20,9 +20,7 @@
 
         <Transition>
             <div v-if="show">
-                <p class="question__answer">
-                    {{ answer }}
-                </p>
+                <p class="question__answer" v-html="answer"></p>
             </div>
         </Transition>
     </div>

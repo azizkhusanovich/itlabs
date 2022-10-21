@@ -9,6 +9,7 @@
 
             <!-- FORM  -->
             <form @submit.prevent="submit" class="form-block">
+                <AppLoader v-if="isLoading" />
                 <!-- COURSES INFO -->
                 <div
                     class="form-select"
@@ -83,6 +84,7 @@
 <script>
 //components
 import SectionTop from '../components/SectionTop.vue'
+import AppLoader from '../components/AppLoader.vue'
 //vuex
 import { mapGetters } from 'vuex'
 
@@ -90,22 +92,23 @@ export default {
     name: 'FormSection',
     data() {
         return {
+            isLoading: false,
             selectOpen: false,
             activeOption: '',
             userName: '',
-            userPhone: '',
-            regex: '^[(]?[0-9]{2}[)]?[-s.]?[0-9]{3}[-s.]?[0-9]{2}[-s.]?[0-9]{2}$',
+            userPhone: '+998',
+            regex: '^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{2}[-\s\.]?[0-9]{7}$',
             regexText: /(<([^>]+)>)/gi,
             errors: {
                 userName: null,
                 userPhone: null,
             },
-            TOKEN: '5025055761:AAEcg-XvUK4qGD77di0MBJxru_Ul_xxUQw0',
-            CHAT_ID: '-710487813',
+            TOKEN: '5783409462:AAGv3NVcz0KCR_nPcK2fLmemIywowZkw6tA',
+            CHAT_ID: '-1001437671100',
         }
     },
     components: {
-        SectionTop,
+        SectionTop,AppLoader
     },
     computed: {
         ...mapGetters(['getOption']),
@@ -118,9 +121,9 @@ export default {
         checkUserName() {
             if (this.userName.length === 0) {
                 if (localStorage.getItem('lang') === 'uz') {
-                    this.errors.userName = "Bu maydonni to'ldirish majburiy"
+                    this.errors.userName = "Iltimos, bu maydonni to'ldiring"
                 } else {
-                    this.errors.userName = "Bu maydonni to'ldirish majburiy ruu"
+                    this.errors.userName = 'Пожалуйста, заполните это поле'
                 }
             } else {
                 this.errors.userName = null
@@ -129,16 +132,15 @@ export default {
         checkUserPhone() {
             if (this.userPhone.length === 0) {
                 if (localStorage.getItem('lang') === 'uz') {
-                    this.errors.userPhone = "Bu maydonni to'ldirish majburiy"
+                    this.errors.userPhone = "Iltimos, bu maydonni to'ldiring"
                 } else {
-                    this.errors.userPhone =
-                        "Bu maydonni to'ldirish majburiy ruu"
+                    this.errors.userPhone = 'Пожалуйста, заполните это поле'
                 }
             } else if (!this.userPhone.match(this.regex)) {
                 if (localStorage.getItem('lang') === 'uz') {
-                    this.errors.userPhone = 'Telefon notgri kiritldi'
+                    this.errors.userPhone = "Telefon raqami noto'g'ri kiritldi"
                 } else {
-                    this.errors.userPhone = 'Telefon notgri kiritldi ruu'
+                    this.errors.userPhone = 'Номер телефона был введен неверно'
                 }
             } else {
                 this.errors.userPhone = null
@@ -153,18 +155,21 @@ export default {
             this.checkUserName()
             this.checkUserPhone()
             if (Object.values(this.errors).every((e) => e === null)) {
-                const info = `
-                🌐 Website: %0A
-                🙎🏻‍♂️ Ismi: ${this.userName} %0A
-                📞 Nomer: ${(this, this.userPhone)} %0A
-                💻 Yo'nalish: ${this.activeOption.replaceAll(this.regexText)}
-                `
+                const info = `🌐 Website: %0A 🙎🏻‍♂️ Ismi: ${
+                    this.userName
+                } %0A 📞 Nomer: ${
+                    (this, this.userPhone)
+                } %0A 💻 Yo'nalish: ${this.activeOption.replaceAll(
+                    this.regexText,
+                    ''
+                )}`
+                this.isLoading = true
                 await fetch(
                     `https://api.telegram.org/bot${this.TOKEN}/sendMessage?chat_id=${this.CHAT_ID}&text=${info}&parse_mode=html`
                 )
-
+                this.isLoading = false
                 this.userName = ''
-                this.userPhone = ''
+                this.userPhone = '+998'
             }
         },
     },
