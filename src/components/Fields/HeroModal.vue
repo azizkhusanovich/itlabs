@@ -2,7 +2,7 @@
     <div class="modal" @click="$emit('closeModal')">
         <div class="area" @click.stop>
             <div class="card" :class="cardRotated ? 'cardRotated' : ''">
-                <div class="front">
+                <div class="front face">
                     <button class="btn" @click="$emit('closeModal')">X</button>
 
                     <div class="top">
@@ -21,7 +21,7 @@
                         {{ $t('hero_btn') }}
                     </button>
                 </div>
-                <div class="back">
+                <div class="back face">
                     <AppLoader v-if="isLoading" />
                     <button class="btn" @click="cardRotated = !cardRotated">
                         <svg
