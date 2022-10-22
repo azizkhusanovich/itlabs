@@ -1,27 +1,20 @@
 <template>
-    <app-loader v-if="isLoading"></app-loader>
-    <router-view v-else />
+    <router-view />
 </template>
 
 <script>
-import AppLoader from '@/components/AppLoader.vue'
 export default {
     name: 'App',
     data() {
         return {
-            isLoading: false,
+            isLoading: true,
         }
     },
     created() {
-        this.isLoading = true
         localStorage.setItem('lang', localStorage.getItem('lang') || 'uz')
     },
     mounted() {
-        this.isLoading = false
-    },
-
-    components: {
-        AppLoader,
+        // document.querySelector('.loader').style.display = 'none'
     },
 }
 </script>

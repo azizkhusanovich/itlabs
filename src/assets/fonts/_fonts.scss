@@ -1,7 +1,33 @@
 // Cera-Pro
 @font-face {
-    font-family: 'CeraPro';
-    src: url('fonts/CeraPro/CeraPro-Regular.ttf');
+    font-family: "CeraPro";
+    src: local("Cera Pro"),
+        local("Cera-Pro"),
+        url("@/assets/fonts/CeraPro/CeraPro-Regular.woff2") format('woff2'),
+        url("@/assets/fonts/CeraPro/CeraPro-Regular.woff") format('woff');
+    font-display: swap;
     font-weight: 400;
-    font-display: fallback;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: local("Cera Pro"),
+        local("Cera-Pro"),
+        url("@/assets/fonts/CeraPro/CeraPro-Medium.woff2") format('woff2'),
+        url("@/assets/fonts/CeraPro/CeraPro-Medium.woff") format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CeraPro";
+    src: local("Cera Pro"),
+        local("Cera-Pro"),
+        url("@/assets/fonts/CeraPro/CeraPro-Bold.woff2") format('woff2'),
+        url("@/assets/fonts/CeraPro/CeraPro-Bold.woff") format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
 }

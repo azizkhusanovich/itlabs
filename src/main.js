@@ -5,4 +5,5 @@ import store from './store'
 import i18n from './i18n'
 import './assets/main.scss'
 
+
 createApp(App).use(i18n).use(store).use(router).mount('#app')
