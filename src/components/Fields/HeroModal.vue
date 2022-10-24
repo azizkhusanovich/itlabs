@@ -14,14 +14,14 @@
                             <p v-html="activeCard.front"></p>
                         </ul>
                     </div>
-                    <button
+                    <!-- <button
                         class="btn-course"
                         @click="cardRotated = !cardRotated"
                     >
                         {{ $t('hero_btn') }}
-                    </button>
+                    </button> -->
                 </div>
-                <div class="back face">
+                <!-- <div class="back face">
                     <AppLoader v-if="isLoading" />
                     <button class="btn" @click="cardRotated = !cardRotated">
                         <svg
@@ -73,7 +73,7 @@
                                 >
                             </div>
 
-                            <!-- USER PHONE -->
+                            USER PHONE
                             <div class="l-info__block">
                                 <input
                                     name="userPhone"
@@ -93,20 +93,20 @@
                                     v-if="errors.userPhone"
                                     >{{ errors.userPhone }}</span
                                 >
-                            </div>
+                            </div> -->
 
-                            <button class="btn-course">
+                            <!-- <button class="btn-course">
                                 {{ $t('send_btn') }}
                             </button>
-                        </form>
+                        </form> -->
                         <!-- <button
                             class="btn-course btn-course-back"
                             @click="cardRotated = !cardRotated"
                         >
                             {{ $t('back') }}
                         </button> -->
-                    </div>
-                </div>
+                    <!-- </div> -->
+                <!-- </div> --> -->
             </div>
         </div>
     </div>
