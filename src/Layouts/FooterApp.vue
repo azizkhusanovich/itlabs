@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <div class="container">
-            <p class="reserved">© 2020 Workflow, Inc. All rights reserved.</p>
+            <p class="reserved">© 2022 Workflow, Inc. All rights reserved.</p>
             <!-- <div class="logo-bl">
                 <img
                     src="@/assets/images/logo.svg"

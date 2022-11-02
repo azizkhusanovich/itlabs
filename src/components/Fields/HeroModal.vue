@@ -93,20 +93,20 @@
                                     v-if="errors.userPhone"
                                     >{{ errors.userPhone }}</span
                                 >
-                            </div> -->
+                            </div>
 
-                            <!-- <button class="btn-course">
+                            <button class="btn-course">
                                 {{ $t('send_btn') }}
                             </button>
-                        </form> -->
-                        <!-- <button
+                        </form>
+                        <button
                             class="btn-course btn-course-back"
                             @click="cardRotated = !cardRotated"
                         >
                             {{ $t('back') }}
-                        </button> -->
-                    <!-- </div> -->
-                <!-- </div> --> -->
+                        </button>
+                    </div>
+                </div> -->
             </div>
         </div>
     </div>
